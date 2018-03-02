@@ -5,7 +5,7 @@
   <!-- Cockpit -->
   <!-- Seats -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/pilotseat.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/pilotseat.xml</path>
     <offsets>
       <x-m> -14.95405 </x-m>
       <y-m>  -0.54000 </y-m>
@@ -14,7 +14,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/pilotseat.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/pilotseat.xml</path>
     <offsets>
       <x-m> -14.95405 </x-m>
       <y-m>   0.54000 </y-m>
@@ -25,7 +25,7 @@
   <!-- Cabine -->
   <!-- Left -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -11.000 </x-m>
       <y-m>  -1.070 </y-m>
@@ -34,7 +34,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -11.000 </x-m>
       <y-m>  -0.570 </y-m>
@@ -43,7 +43,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -10.000 </x-m>
       <y-m>  -1.070 </y-m>
@@ -52,7 +52,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -10.000 </x-m>
       <y-m>  -0.570 </y-m>
@@ -61,7 +61,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -9.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -70,7 +70,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -9.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -79,7 +79,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -8.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -88,7 +88,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -8.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -97,7 +97,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -7.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -106,7 +106,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -7.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -115,7 +115,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -6.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -124,7 +124,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -6.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -133,7 +133,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -5.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -142,7 +142,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -5.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -151,7 +151,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -4.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -160,7 +160,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -4.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -169,7 +169,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -3.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -178,7 +178,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -3.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -187,7 +187,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -2.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -196,7 +196,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -2.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -205,7 +205,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -214,7 +214,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -223,7 +223,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -232,7 +232,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -241,7 +241,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -250,7 +250,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -259,7 +259,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  1.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -268,7 +268,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  1.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -277,7 +277,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  2.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -286,7 +286,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  2.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -295,7 +295,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  3.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -304,7 +304,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  3.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -313,7 +313,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  4.000 </x-m>
       <y-m> -1.070 </y-m>
@@ -322,7 +322,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatL.xml</path>
     <offsets>
       <x-m>  4.000 </x-m>
       <y-m> -0.570 </y-m>
@@ -332,7 +332,7 @@
 
   <!-- Right -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -11.000 </x-m>
       <y-m>   1.070 </y-m>
@@ -341,7 +341,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -11.000 </x-m>
       <y-m>   0.570 </y-m>
@@ -350,7 +350,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -10.000 </x-m>
       <y-m>   1.070 </y-m>
@@ -359,7 +359,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -10.000 </x-m>
       <y-m>   0.570 </y-m>
@@ -368,7 +368,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -9.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -377,7 +377,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -9.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -386,7 +386,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -8.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -395,7 +395,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -8.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -404,7 +404,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -7.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -413,7 +413,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -7.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -422,7 +422,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -6.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -431,7 +431,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -6.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -440,7 +440,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -5.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -449,7 +449,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -5.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -458,7 +458,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -4.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -467,7 +467,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -4.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -476,7 +476,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -3.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -485,7 +485,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -3.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -494,7 +494,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -2.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -503,7 +503,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -2.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -512,7 +512,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -521,7 +521,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -530,7 +530,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -539,7 +539,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m> -1.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -548,7 +548,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -557,7 +557,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -566,7 +566,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  1.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -575,7 +575,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  1.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -584,7 +584,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  2.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -593,7 +593,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  2.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -602,7 +602,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  3.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -611,7 +611,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  3.000 </x-m>
       <y-m>  0.570 </y-m>
@@ -620,7 +620,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  4.000 </x-m>
       <y-m>  1.070 </y-m>
@@ -629,7 +629,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/seatR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/seatR.xml</path>
     <offsets>
       <x-m>  4.000 </x-m>
       <y-m>  0.570 </y-m>

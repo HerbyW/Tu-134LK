@@ -15,7 +15,7 @@
         <greater-than>
           <!-- /gear/gear[2]/rollspeed-ms -->
           <property>sim/multiplay/generic/float[13]</property>
-          <value>5</value>
+          <value>15</value>
         </greater-than>
       </and>
     </condition>
@@ -47,28 +47,28 @@
 
     <counter>
       <particles-per-sec>
-        <value>150</value>
+        <value>50</value>
         <spread>0</spread>
       </particles-per-sec>
     </counter>
 
     <align>billboard</align>
 
-    <particle>
+   <particle>
       <start>
         <color>
-          <red><value>   0.95 </value></red>
-          <green><value> 0.95 </value></green>
-          <blue><value>  0.95 </value></blue>
+          <red><value>   0.45 </value></red>
+          <green><value> 0.45 </value></green>
+          <blue><value>  0.45 </value></blue>
           <alpha><value> 0.05 </value></alpha>
         </color>
         <size><value> 0.5 </value></size>
       </start>
       <end>
         <color>
-          <red><value>   1.000 </value></red>
-          <green><value> 1.000 </value></green>
-          <blue><value>  1.000 </value></blue>
+          <red><value>   0.400 </value></red>
+          <green><value> 0.400 </value></green>
+          <blue><value>  0.400 </value></blue>
           <alpha><value> 0.020 </value></alpha>
         </color>
         <size><value> 3 </value></size>

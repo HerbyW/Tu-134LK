@@ -32,6 +32,26 @@
      Inertia tensor : 605099.125, -0.006, 289699.250
      [kg*m^2] -0.006, 2883673.000, 5325.141
      Origo at CG 289699.250, 5325.141, 3217679.500
+     
+     Ongoing development by Herbert Wagner 2018 with new version: Tu-134LK - Cosmonaut training version.
+     
+     YASim solution results: original
+       Iterations: 1782
+ Drag Coefficient: 14.3339
+       Lift Ratio: 85.4162
+       Cruise AoA: 2.3228
+   Tail Incidence: -1.85183
+Approach Elevator: -0.88323
+            CG: 0.962, -0.000, -0.387
+            
+            YASim solution results:
+       Iterations: 1781
+ Drag Coefficient: 14.3373
+       Lift Ratio: 85.5648
+       Cruise AoA: 2.31711
+   Tail Incidence: -1.84072
+Approach Elevator: -0.406927
+            CG: 0.962, -0.000, -0.387
 -->
 
 <airplane mass="63934" version="YASIM_VERSION_CURRENT">
@@ -129,7 +149,7 @@
         <stall aoa="13" width="4" peak="1.5"/>
         <flap0 start="0.05" end="0.64" lift="1.5" drag="2.5"/>
         <flap1 start="0.64" end="1" lift="1.3" drag="1.1"/>
-        <spoiler start="0.35" end="0.50" lift="0.3" drag="3"/>
+        <spoiler start="0.35" end="0.64" lift="0.3" drag="5"/>
   
         <control-input axis="/controls/flight/spoilers" control="SPOILER"/>
         <control-input axis="/controls/flight/flaps" control="FLAP0"/>
@@ -142,7 +162,7 @@
         <control-output control="FLAP1" side="left" prop="/surface-positions/left-aileron-pos-norm"/>
         <control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
 
-        <control-speed control="FLAP0" transition-time="10"/>
+        <control-speed control="FLAP0" transition-time="25"/>
         <control-speed control="SPOILER" transition-time="5"/>
   </wing>
 
@@ -160,7 +180,7 @@
          sweep="35"
          camber="-0.08">
          <stall aoa="16" width="4" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.5" drag="1.3"/>
+         <flap0 start="0" end="1" lift="2.3" drag="1.3"/>
          <control-input axis="/controls/flight/elevator" control="FLAP0"/>
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
          <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
@@ -225,26 +245,29 @@
   <gear x="-5" y="-5" z="-9"/>
   -->
   <!-- 0 nose -->
-  <gear x="14.426" y="0.0" z="-4.450"
+  <gear x="14.426" y="0.0" z="-4.45"
         compression="0.75" 
-        spring="2"
-        damp="2"
-        sfric="1.5"
-        dfric="1">
-        <control-input axis="/controls/flight/rudder" control="STEER" square="true"/>
+        spring="1.1"
+        damp="0.9" 
+        sfric="1.9" 
+        dfric="0.7">  
+       <control-input axis="/controls/flight/rudder" control="STEER"
+    src0="-1.0" dst0="-0.8052" src1="1.0" dst1="0.8052" square="true"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
   
         <control-output control="EXTEND" prop="/gear/gear[0]/position-norm"/>
-
+        <control-output control="STEER" prop="/gear/gear[0]/steering-norm"/>
         <control-speed control="EXTEND" transition-time="7"/>
+        <control-speed control="STEER" transition-time="6.0"/>
   </gear>
 
   <!-- 1 Left -->
-  <gear x="-0.3585" y="4.7760" z="-4.3869"
-        compression="1.1" 
-        spring="1"
-        sfric=".5"
-        dfric="0.4">
+  <gear x="-0.3585" y="4.7760" z="-4.36"
+        compression="0.75" 
+        spring="1.5"
+        damp="0.9" 
+        sfric="1.9" 
+        dfric="0.7">  
         <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -255,11 +278,12 @@
   </gear>
 
   <!-- 2 Right -->
-  <gear x="-0.3585" y="-4.7760" z="-4.3869"
-        compression="1.1"
-        spring="1"
-        sfric=".5"
-        dfric="0.4">
+  <gear x="-0.3585" y="-4.7760" z="-4.36"
+        compression="0.75"
+        spring="1.5"
+        damp="0.9" 
+        sfric="1.9" 
+        dfric="0.7">  
         <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -270,11 +294,14 @@
   </gear>
 
   <!-- 3 Left rear -->
-  <gear x="-1.5681" y="4.7760" z="-4.3869"
-        compression="1.1"
-        spring="1"
-        sfric=".5"
-        dfric="0.4">
+  <gear x="-1.5681" y="4.7760" z="-4.36"
+        compression="0.75"
+        spring="1.5"
+        damp="0.9" 
+        sfric="1.9" 
+        dfric="0.7">
+        <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
+        <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
 
         <control-output control="EXTEND" prop="/gear/gear[3]/position-norm"/>
@@ -283,11 +310,14 @@
   </gear>
 
   <!-- 4 Right rear -->
-  <gear x="-1.5681" y="-4.7760" z="-4.3869"
-        compression="1.1"
-        spring="1"
-        sfric=".5"
-        dfric="0.4">
+  <gear x="-1.5681" y="-4.7760" z="-4.36        "
+        compression="0.75"
+        spring="1.5"
+        damp="0.9" 
+        sfric="1.9" 
+        dfric="0.7">
+        <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
+        <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
 
         <control-output control="EXTEND" prop="/gear/gear[4]/position-norm"/>

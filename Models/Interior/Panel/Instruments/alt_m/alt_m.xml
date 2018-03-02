@@ -33,7 +33,7 @@ Changes:
   
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134LK/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect>
   

@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-  <title>Tu 134</title>
+  <title>Tu-134LK</title>
   <line>______________________________________________</line>
   <key>
-    <name>}</name>
+    <name>s</name>
     <desc>Engines Startup/Shutdown</desc>
   </key>
   <key>
@@ -27,6 +27,14 @@
   <key>
     <name>l</name>
     <desc>Landing lights On/Off</desc>
+  </key>
+  <key>
+    <name> > </name>
+    <desc>Change Pilot Model View</desc>
+  </key>
+  <key>
+    <name>y</name>
+    <desc>Change Pilot Navigator View</desc>
   </key>
   
 </PropertyList>

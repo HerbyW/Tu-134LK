@@ -15,7 +15,7 @@
         <greater-than>
           <!-- /engines/engine[0]/n2 -->
           <property>sim/multiplay/generic/float[4]</property>
-          <value>50</value>
+          <value>56</value>
         </greater-than>
         <greater-than>
           <!-- /position/altitude-ft -->

@@ -18,7 +18,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AI -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m>  0.090 </x-m>
       <y-m> -0.540 </y-m>
@@ -27,7 +27,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m> 0.090 </x-m>
       <y-m> 0.540 </y-m>
@@ -37,7 +37,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AI 2 -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ai2/ai2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ai2/ai2.xml</path>
     <offsets>
       <x-m>  0.08869 </x-m>
       <y-m> -0.37000 </y-m>
@@ -47,7 +47,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- HI -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/hi/hi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/hi/hi.xml</path>
     <offsets>
       <x-m>  0.090 </x-m>
       <y-m> -0.540 </y-m>
@@ -56,7 +56,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/hi/hi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/hi/hi.xml</path>
     <offsets>
       <x-m>  0.090 </x-m>
       <y-m>  0.540 </y-m>
@@ -66,7 +66,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ADF -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki227_228/ki227_228.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki227_228/ki227_228.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m> -0.651 </y-m>
@@ -75,7 +75,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki227_228/ki227_228.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki227_228/ki227_228.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.429 </y-m>
@@ -85,7 +85,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VOR 1 -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki209a/ki209a-1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki209a/ki209a-1.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m> -0.220 </y-m>
@@ -94,7 +94,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki209a/ki209a-1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki209a/ki209a-1.xml</path>
     <offsets>
       <x-m> 0.089 </x-m>
       <y-m> 0.220 </y-m>
@@ -104,7 +104,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VOR 2 -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki209a/ki209a-2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki209a/ki209a-2.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m> -0.220 </y-m>
@@ -113,7 +113,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ki209a/ki209a-2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ki209a/ki209a-2.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.220 </y-m>
@@ -123,7 +123,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ENGINES WARNING -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/Warnings/engines.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/Warnings/engines.xml</path>
     <offsets>
       <x-m> 0.087 </x-m>
       <y-m> 0.000 </y-m>
@@ -133,7 +133,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AP WARNING -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/Warnings/ap.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/Warnings/ap.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.125 </y-m>
@@ -143,7 +143,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AT -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/at/at.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/at/at.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.142 </y-m>
@@ -153,7 +153,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- COM-1 -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/com/com-1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/com/com-1.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.142 </y-m>
@@ -163,7 +163,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- UIZ -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/uiz/uiz-1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/uiz/uiz-1.xml</path>
     <offsets>
       <x-m>  0.086 </x-m>
       <y-m> -0.135 </y-m>
@@ -172,7 +172,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/uiz/uiz-2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/uiz/uiz-2.xml</path>
     <offsets>
       <x-m> 0.086 </x-m>
       <y-m> 0.135 </y-m>
@@ -182,7 +182,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- PSP -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/psp/psp.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/psp/psp.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.000 </y-m>
@@ -192,7 +192,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- UT-7A -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ut/ut7a-1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ut/ut7a-1.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.105 </y-m>
@@ -201,7 +201,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ut/ut7a-2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ut/ut7a-2.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m>  0.105 </y-m>
@@ -211,7 +211,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ITE -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/ite/ite.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/ite/ite.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.000 </y-m>
@@ -221,7 +221,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (m) -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
     <offsets>
       <x-m>  0.082 </x-m>
       <y-m> -0.430 </y-m>
@@ -230,7 +230,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
     <offsets>
       <x-m>  0.082 </x-m>
       <y-m>  0.650 </y-m>
@@ -240,7 +240,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (ft) -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
     <offsets>
       <x-m>  0.082 </x-m>
       <y-m> -0.340 </y-m>
@@ -249,7 +249,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
     <offsets>
       <x-m>  0.082 </x-m>
       <y-m>  0.740 </y-m>
@@ -259,7 +259,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VSI -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m>  0.08700 </x-m>
       <y-m> -0.43500 </y-m>
@@ -268,7 +268,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> 0.08700 </x-m>
       <y-m> 0.64500 </y-m>
@@ -278,7 +278,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- UAP -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/uap/uap.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/uap/uap.xml</path>
     <offsets>
       <x-m>  0.088 </x-m>
       <y-m> -0.215 </y-m>
@@ -288,7 +288,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ARCHS -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/achs/achs.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/achs/achs.xml</path>
     <offsets>
       <x-m> 0.086 </x-m>
       <y-m> 0.215 </y-m>
@@ -298,7 +298,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- IDR -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/idr/idr.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/idr/idr.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.434 </y-m>
@@ -307,7 +307,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/idr/idr.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/idr/idr.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m>  0.646 </y-m>
@@ -317,7 +317,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- TURN -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/turn/turn.xml</path>
     <offsets>
       <x-m>  0.088 </x-m>
       <y-m> -0.760 </y-m>
@@ -326,7 +326,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/turn/turn.xml</path>
     <offsets>
       <x-m> 0.088 </x-m>
       <y-m> 0.340 </y-m>
@@ -336,7 +336,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Controls -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/controls/controls.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/controls/controls.xml</path>
     <offsets>
       <x-m>  0.088 </x-m>
       <y-m> -0.760 </y-m>
@@ -345,7 +345,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/controls/controls.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/controls/controls.xml</path>
     <offsets>
       <x-m>  0.088 </x-m>
       <y-m>  0.340 </y-m>
@@ -355,7 +355,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ASI -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.646 </y-m>
@@ -364,7 +364,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m> 0.087 </x-m>
       <y-m> 0.434 </y-m>
@@ -374,7 +374,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Radio ALT -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m> -0.343 </y-m>
@@ -383,7 +383,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
       <x-m>  0.089 </x-m>
       <y-m>  0.737 </y-m>
@@ -393,7 +393,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Landing lights -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
     <offsets>
       <x-m>  0.087 </x-m>
       <y-m> -0.235 </y-m>
@@ -402,7 +402,7 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
     <offsets>
       <x-m> 0.087 </x-m>
       <y-m> 0.235 </y-m>
@@ -412,7 +412,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Compass -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Instruments/compass/compass.xml</path>
     <offsets>
       <x-m> -0.010 </x-m>
       <y-m>  0.000 </y-m>

@@ -14,7 +14,7 @@
         <greater-than>
           <!-- /engines/engine[0]/n2 -->
           <property>sim/multiplay/generic/float[4]</property>
-          <value>75</value>
+          <value>74</value>
         </greater-than>
         <less-than>
           <!-- /position/altitude-ft -->
@@ -31,13 +31,13 @@
     </placer>
 
     <shooter>
-      <theta-min-deg>84</theta-min-deg>
-      <theta-max-deg>86</theta-max-deg>
+      <theta-min-deg>88</theta-min-deg>
+      <theta-max-deg>92</theta-max-deg>
       <phi-min-deg>-1.5</phi-min-deg>
       <phi-max-deg>1.5</phi-max-deg>
       <speed-mps>
         <property>engines/engine/n1</property>
-        <factor>5</factor>
+        <factor>0.13</factor>
       </speed-mps>
       <rotation-speed>
         <x-min-deg-sec>0</x-min-deg-sec>
@@ -52,7 +52,7 @@
     <counter>
       <particles-per-sec>
         <property>engines/engine/n1</property>
-        <factor>1</factor>
+        <factor>0.5</factor>
         <spread>20</spread>
       </particles-per-sec>
     </counter>
@@ -60,37 +60,34 @@
     <align>billboard</align>
 
     <particle>
-      <start>
-        <color>
-          <red><value>   0.980 </value></red>
-          <green><value> 0.970 </value></green>
-          <blue><value>  0.950 </value></blue>
-          <alpha><value> 0.025 </value></alpha>
-        </color>
-        <size>
-          <value>0.75</value>
-        </size>
-      </start>
-
-      <end>
-        <color>
-          <red><value>   0.9500 </value></red>
-          <green><value> 0.9500 </value></green>
-          <blue><value>  0.9500 </value></blue>
-          <alpha><value> 0.0125 </value></alpha>
-        </color>
-        <size>
-          <value>7.5</value>
-        </size>
-      </end>
-
-      <life-sec>
-        <value>5.0</value>
-      </life-sec>
-
-      <mass-kg>0.05</mass-kg>
-      <radius-m>0.3</radius-m>
-    </particle>
+			<start>
+				<color>
+					<red><value>0.45</value></red>
+					<green><value>0.45</value></green>
+					<blue><value>0.45</value></blue>
+					<alpha><value>0.03</value></alpha>
+				</color>
+				<size>
+					<value>0.25</value>
+				</size>
+			</start>
+			<end>
+				<color>
+					<red><value>0.75</value></red>
+					<green><value>0.75</value></green>
+					<blue><value>0.75</value></blue>
+					<alpha><value>0.0</value></alpha>
+				</color>
+				<size>
+					<value>7</value>
+				</size>
+			</end>
+			<life-sec>
+				<value>10</value>
+			</life-sec>
+			<mass-kg>0.52</mass-kg>
+			<radius-m>0.01</radius-m>
+		</particle>
 
     <program>
       <fluid>   air  </fluid>

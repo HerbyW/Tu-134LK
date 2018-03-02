@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 
-<PropertyList include="tu134-base.xml">
+<PropertyList include="Tu-134LK-base.xml">
 
   <sim>
 
-    <description>Tu 134 (YASim)</description>
-    <author>Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
+    <description>Tu-134LK - Cosmonaut training version (YASim)</description>
+    <author>Herbert Wagner, Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
     <flight-model archive="y">yasim</flight-model>
-    <aero archive="y">tu134-yasim</aero>
+    <aero archive="y">Tu-134LK-yasim</aero>
     
     <rating>
       <FDM type="int">     5 </FDM>

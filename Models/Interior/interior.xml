@@ -23,7 +23,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134LK/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
     <object-name>intvitreporte</object-name>
     <object-name>intvitresnoze0</object-name>
@@ -32,7 +32,7 @@
   <!-- Les sieges -->
   <model>
     <name>Seats</name>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/All-Seats.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Seats/All-Seats.xml</path>
   </model>
 
   <animation>
@@ -74,7 +74,7 @@
   <!-- Pilote -->
   <!--
   <model>
-    <path>Aircraft/Tu-134/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -15.27948 </x-m>
       <y-m>  -0.54000 </y-m>
@@ -85,7 +85,7 @@
 
   <!-- Tableau de bord -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -16.056 </x-m>
       <y-m>   0.000 </y-m>
@@ -95,7 +95,7 @@
 
   <!-- OverHead -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Overhead/overhead.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel/Overhead/overhead.xml</path>
     <offsets>
       <x-m> -15.40492 </x-m>
       <y-m>   0.00000 </y-m>

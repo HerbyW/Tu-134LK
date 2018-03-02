@@ -4,23 +4,23 @@
 
   <sim include="Systems/views.xml">
 
-    <description>Tu 134 (YASim)</description>
-    <author>Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
+    <description>Tu-134LK - Cosmonaut training version (YASim)</description>
+    <author>Herbert Wagner, Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
     <aircraft-version>0.2</aircraft-version>
     <status>Alpha</status>
 
     <fuel-fraction>0.5</fuel-fraction>
 
     <startup>
-      <splash-texture>Aircraft/Tu-134/tu134-splash.png</splash-texture>
+      <splash-texture>Aircraft/Tu-134LK/Tu-134LK-splash.png</splash-texture>
     </startup>
 
     <sound>
-      <path archive="y">Aircraft/Tu-134/Sounds/tu134-sound.xml</path>
+      <path archive="y">Aircraft/Tu-134LK/Sounds/Tu-134LK-sound.xml</path>
     </sound>
 
     <model>
-      <path>Aircraft/Tu-134/Models/tu134.xml</path>
+      <path>Aircraft/Tu-134LK/Models/Tu-134LK.xml</path>
       <livery>
         <file type="string">default</file>
         <noze>1</noze>
@@ -37,11 +37,11 @@
     </flaps>
     
     <systems>
-      <path>Aircraft/Tu-134/Systems/tu134-systems.xml</path>
+      <path>Aircraft/Tu-134LK/Systems/Tu-134LK-systems.xml</path>
     </systems>  
     
     <instrumentation>
-      <path>Aircraft/Tu-134/Systems/instrumentation.xml</path>
+      <path>Aircraft/Tu-134LK/Systems/instrumentation.xml</path>
     </instrumentation>
     
     <multiplay>
@@ -68,6 +68,7 @@
         <float n="11" alias="/gear/gear[0]/rollspeed-ms"/>
         <float n="12" alias="/gear/gear[1]/rollspeed-ms"/>
         <float n="13" alias="/gear/gear[2]/rollspeed-ms"/>
+        <float n="14" alias="/gear/gear[0]/steering-norm"/>
         <!-- For Bombable -->
         <int type="int" n="10" alias="controls/armament/trigger">0</int>
         <string n="9" type="string"/>
@@ -76,7 +77,7 @@
 
     <help include="Systems/help.xml"/>
 
-    <menubar include="Dialogs/tu134-menu.xml"/>
+    <menubar include="Dialogs/Tu-134LK-menu.xml"/>
 
     <!-- FUEL  -->
     <fuel n="0">
@@ -146,7 +147,7 @@
   </sim>
   
   <input>
-    <keyboard include="Systems/tu134-keyboard.xml"/>
+    <keyboard include="Systems/Tu-134LK-keyboard.xml"/>
   </input>
   
   <controls>
@@ -157,20 +158,20 @@
  
   <nasal>
     <doors>
-      <file>Aircraft/Tu-134/Nasal/doors.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/doors.nas</file>
     </doors>
     <tu134>
-      <file>Aircraft/Tu-134/Nasal/light.nas</file>
-      <file>Aircraft/Tu-134/Nasal/liveries.nas</file>
-      <file>Aircraft/Tu-134/Nasal/altimeter.nas</file>
-<!--  <file>Aircraft/Tu-134/Nasal/immat.nas</file> -->
+      <file>Aircraft/Tu-134LK/Nasal/light.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/liveries.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/altimeter.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/immat.nas</file>
     </tu134>
     <instruments>
-      <file>Aircraft/Tu-134/Nasal/idr.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/idr.nas</file>
     </instruments>
     <engines>
       <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>
-      <file>Aircraft/Tu-134/Nasal/engines-yasim.nas</file>
+      <file>Aircraft/Tu-134LK/Nasal/engines-yasim.nas</file>
     </engines>
   </nasal>
    

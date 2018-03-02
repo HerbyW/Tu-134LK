@@ -33,8 +33,8 @@
     </binding>
   </key>
       
-  <key n="125">
-    <name>}</name>
+  <key n="115">
+    <name>s</name>
     <desc>Engine Autostart</desc>
     <binding>
       <command>nasal</command>
@@ -48,6 +48,28 @@
     <binding>
       <command>property-toggle</command>
       <property>/controls/lighting/landing-lights</property>
+    </binding>
+  </key>
+  
+  <key n="60">
+    <name> > </name>
+    <desc>Change Pilot Model View</desc>
+    <binding>
+      <command>property-cycle</command>
+      <property>sim/current-view/view-number</property>  
+      <value>0</value>
+      <value>7</value>
+    </binding>
+  </key>
+  
+  <key n="121">
+    <name>y</name>
+    <desc>Change Pilot Navigator View</desc>
+    <binding>
+      <command>property-cycle</command>
+      <property>sim/current-view/view-number</property>  
+      <value>0</value>
+      <value>12</value>
     </binding>
   </key>
    

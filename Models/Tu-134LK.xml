@@ -7,7 +7,7 @@
   <nasal>
     <load>
       var update = aircraft.overlay_update.new();
-      update.add("Aircraft/Tu-134/Models/Liveries", "sim/model/livery/noze");    
+      update.add("Aircraft/Tu-134LK/Models/Liveries", "sim/model/livery/noze");    
 
       var self = cmdarg();
 
@@ -230,7 +230,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134LK/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
     <object-name>vitresnoze0</object-name>
     <object-name>vitreporte</object-name>
@@ -240,7 +240,7 @@
   
   <!-- Une ombre pour OSG -->
   <model>
-    <path>Aircraft/Tu-134/Models/shadow.xml</path>
+    <path>Aircraft/Tu-134LK/Models/shadow.xml</path>
     <offsets>
       <x-m>  1.85508 </x-m>
       <y-m>  0.00000 </y-m>
@@ -251,7 +251,7 @@
   <!-- Interieur -->
   <model>
     <name>Interieur</name>
-    <path>Aircraft/Tu-134/Models/Interior/interior.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Interior/interior.xml</path>
   </model>
 
   <animation>
@@ -296,7 +296,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue avant -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -14.426 </x-m>
       <y-m>   0.000 </y-m>
@@ -306,7 +306,7 @@
 
   <!-- Roue gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m> -4.776 </y-m>
@@ -316,7 +316,7 @@
 
   <!-- Roue droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m>  4.776 </y-m>
@@ -327,7 +327,7 @@
   <!-- Moteurs -->
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/smoke/smokeL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -336,7 +336,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailL.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/trail/trailL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -346,7 +346,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/smoke/smokeR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -355,7 +355,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailR.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/trail/trailR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -365,7 +365,7 @@
 
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>   8.034 </x-m>
       <y-m> -14.289 </y-m>
@@ -375,7 +375,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134LK/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>  8.034 </x-m>
       <y-m> 14.289 </y-m>
@@ -389,8 +389,8 @@
   <animation>
     <type>spin</type>
     <object-name>heliceG</object-name>
-    <property>controls/engines/engine[0]/throttle</property>
-    <factor> 100 </factor>
+    <property>sim/multiplay/generic/float[4]</property>
+    <factor> 1 </factor>
     <center>
       <x-m>  6.072 </x-m>
       <y-m> -2.356 </y-m>
@@ -406,8 +406,8 @@
   <animation>
     <type>spin</type>
     <object-name>heliceD</object-name>
-    <property>controls/engines/engine[0]/throttle</property>
-    <factor> 100 </factor>
+    <property>sim/multiplay/generic/float[5]</property>
+    <factor> 1 </factor>
     <center>
       <x-m>  6.072 </x-m>
       <y-m>  2.356 </y-m>
@@ -1221,8 +1221,7 @@
     <property>gear/gear[0]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.00 </ind><dep> 0.00 </dep></entry>
-      <entry><ind> 0.03 </ind><dep> 0.05 </dep></entry>
-      <entry><ind> 1.00 </ind><dep> 0.30 </dep></entry>
+      <entry><ind> 1.00 </ind><dep> 0.65 </dep></entry>
     </interpolation>
     <axis>
       <x> 0 </x>
@@ -1295,7 +1294,7 @@
     <property>gear/gear[3]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -15 </dep></entry>
-      <entry><ind> 0.2 </ind><dep>   0 </dep></entry>
+      <entry><ind> 0.078 </ind><dep>   0 </dep></entry>
       <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
     </interpolation>
     <center>
@@ -1316,8 +1315,7 @@
     <property>gear/gear[1]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
-      <entry><ind> 0.2 </ind><dep> 0.12 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 0.24 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 0.65 </dep></entry>
     </interpolation>
     <center>
       <x-m>  0.76710 </x-m>
@@ -1355,7 +1353,7 @@
     <property>gear/gear[4]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -15 </dep></entry>
-      <entry><ind> 0.2 </ind><dep>   0 </dep></entry>
+      <entry><ind> 0.078 </ind><dep>   0 </dep></entry>
       <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
     </interpolation>
     <center>
@@ -1376,8 +1374,7 @@
     <property>gear/gear[2]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
-      <entry><ind> 0.2 </ind><dep> 0.12 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 0.24 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 0.65 </dep></entry>
     </interpolation>
     <center>
       <x-m>  0.76710 </x-m>
@@ -1404,8 +1401,8 @@
   <animation>
     <type>rotate</type>
     <object-name>TrainAvant</object-name>
-    <property>surface-positions/rudder-pos-norm</property>
-    <factor> -20 </factor>
+    <property>sim/multiplay/generic/float[14]</property>
+    <factor> -45 </factor>
     <center>
       <x-m> -14.5803 </x-m>
       <y-m>   0.0000 </y-m>
@@ -1422,7 +1419,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueA</object-name>
-    <property>/gear/gear[0]/rollspeed-ms</property>
+    <property>sim/multiplay/generic/float[11]</property>
     <factor> 30 </factor>
     <center>
       <x-m> -14.426 </x-m>
@@ -1439,7 +1436,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueG1</object-name>
-    <property>/gear/gear[1]/rollspeed-ms</property>
+    <property>sim/multiplay/generic/float[12]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  0.358 </x-m>
@@ -1456,7 +1453,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueG2</object-name>
-    <property>/gear/gear[1]/rollspeed-ms</property>
+    <property>sim/multiplay/generic/float[12]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  1.568 </x-m>
@@ -1473,7 +1470,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueD1</object-name>
-    <property>/gear/gear[2]/rollspeed-ms</property>
+    <property>sim/multiplay/generic/float[13]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  0.358 </x-m>
@@ -1490,7 +1487,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueD2</object-name>
-    <property>/gear/gear[2]/rollspeed-ms</property>
+    <property>sim/multiplay/generic/float[13]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  1.568 </x-m>
@@ -1528,7 +1525,7 @@
   <animation>
     <type>rotate</type>
     <object-name>LaPorte</object-name>
-    <property>sim/model/door-positions/crew/position-norm</property>
+    <property>sim/multiplay/generic/float[0]</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
       <entry><ind> 0.2 </ind><dep>  0 </dep></entry>
@@ -1549,7 +1546,7 @@
   <animation>
     <type>translate</type>
     <object-name>LaPorte</object-name>
-    <property>sim/model/door-positions/crew/position-norm</property>
+    <property>sim/multiplay/generic/float[0]</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
       <entry><ind> 0.2 </ind><dep> 0.08 </dep></entry>
@@ -1564,7 +1561,7 @@
 
   <!-- Ajout des effets lumineux -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/beacon.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/beacon.xml</path>
     <offsets>
       <x-m> 0.00000 </x-m>
       <y-m> 0.00000 </y-m>
@@ -1573,7 +1570,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/RedLight.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/RedLight.xml</path>
     <offsets>
       <x-m>   6.44273 </x-m>
       <y-m> -14.44380 </y-m>
@@ -1582,7 +1579,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>   6.56320 </x-m>
       <y-m> -14.45990 </y-m>
@@ -1591,7 +1588,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/GreenLight.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/GreenLight.xml</path>
     <offsets>
       <x-m>  6.44273 </x-m>
       <y-m> 14.44380 </y-m>
@@ -1600,7 +1597,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>  6.56320 </x-m>
       <y-m> 14.45990 </y-m>
@@ -1610,7 +1607,7 @@
 
   <!-- Light cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>       -0.94337 </y-m>
@@ -1621,7 +1618,7 @@
 
   <!-- Light cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>        0.94337 </y-m>
@@ -1632,7 +1629,7 @@
 
   <!-- Light back cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>       -4.2571 </y-m>
@@ -1643,7 +1640,7 @@
   
   <!-- Light back cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>        4.2571 </y-m>

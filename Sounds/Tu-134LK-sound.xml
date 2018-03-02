@@ -8,7 +8,7 @@
     <engine>
       <name>start-inside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134//Sounds/start-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/start-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/starter</property>
@@ -34,7 +34,7 @@
     <engine>
       <name>start-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134//Sounds/start-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/start-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/starter</property>
@@ -62,7 +62,7 @@
     <engine>
       <name>turbine-inside0</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134/Sounds/engine-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/engine-in.wav</path>
       <condition>
         <and>
           <property>/engines/engine[0]/running</property>
@@ -88,7 +88,7 @@
     <engine>
       <name>turbine-outside0</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134/Sounds/engine-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/engine-out.wav</path>
       <condition>
         <property>/engines/engine[0]/running</property>
         <not>
@@ -114,7 +114,7 @@
     <engine>
       <name>shutdown-inside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134/Sounds/shutdown-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/shutdown-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/cutoff</property> 
@@ -134,7 +134,7 @@
     <engine>
       <name>shutdown-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134/Sounds/shutdown-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/shutdown-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/cutoff</property> 
@@ -155,7 +155,7 @@
 
     <engine>
       <name>whine0</name>
-      <path>Aircraft/Tu-134/Sounds/whine.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/whine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -178,7 +178,7 @@
     <engine>
       <name>start-inside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134//Sounds/start-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/start-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/starter</property>
@@ -204,7 +204,7 @@
     <engine>
       <name>start-outside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134//Sounds/start-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/start-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/starter</property>
@@ -232,7 +232,7 @@
     <engine>
       <name>turbine-inside1</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134/Sounds/engine-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/engine-in.wav</path>
       <condition>
         <and>
           <property>/engines/engine[1]/running</property>
@@ -258,7 +258,7 @@
     <engine>
       <name>turbine-outside1</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134/Sounds/engine-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/engine-out.wav</path>
       <condition>
         <property>/engines/engine[1]/running</property>
         <not>
@@ -284,7 +284,7 @@
     <engine>
       <name>shutdown-inside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134/Sounds/shutdown-in.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/shutdown-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/cutoff</property> 
@@ -304,7 +304,7 @@
     <engine>
       <name>shutdown-outside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134/Sounds/shutdown-out.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/shutdown-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/cutoff</property> 
@@ -325,7 +325,7 @@
 
     <engine>
       <name>whine1</name>
-      <path>Aircraft/Tu-134/Sounds/whine.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/whine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -393,7 +393,7 @@
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Tu-134/Sounds/gear.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/gear.wav</path>
       <property>/gear/gear[0]/position-norm</property>
       <pitch>
         <internal>dt_play</internal>
@@ -427,7 +427,7 @@
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Tu-134/Sounds/gear.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/gear.wav</path>
       <property>/gear/gear[1]/position-norm</property>
       <pitch>
         <internal>dt_play</internal>
@@ -461,7 +461,7 @@
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Tu-134/Sounds/gear.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/gear.wav</path>
       <property>/gear/gear[2]/position-norm</property>
       <pitch>
         <internal>dt_play</internal>
@@ -633,7 +633,7 @@
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134/Sounds/wind.wav</path>
+      <path>Aircraft/Tu-134LK/Sounds/wind.wav</path>
       <property>/velocities/airspeed-kt</property>
       <volume>
         <property>/velocities/airspeed-kt</property>

@@ -19,10 +19,11 @@ Modified by lastmin-II, 07.2015:
     <config>
       <from-model type="bool">true</from-model>
       <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
-      <x-offset-m archive="y"> -0.58628 </x-offset-m> <!-- Right -->
+      <x-offset-m archive="y"> -1.1 </x-offset-m> <!-- Right -->
       <y-offset-m archive="y"> -0.98396 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -4.06650 </z-offset-m> <!-- Back  -->
-      <pitch-offset-deg> 0 </pitch-offset-deg>
+      <pitch-offset-deg> -5 </pitch-offset-deg>
+      <heading-offset-deg> 70 </heading-offset-deg>
       <default-field-of-view-deg> 60 </default-field-of-view-deg>
       <dynamic-view type="bool">true</dynamic-view>
     </config>
@@ -72,24 +73,24 @@ Modified by lastmin-II, 07.2015:
       <y-offset-m archive="y">  -0.67204 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -15.07172 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> -5 </pitch-offset-deg>
-      <default-field-of-view-deg type="double"> 44 </default-field-of-view-deg>
+      <default-field-of-view-deg type="double"> 45 </default-field-of-view-deg>
     </config>
   </view>
 
   <view n="104">
-    <name>Compass View</name>
+    <name>Navigator View</name>
     <type>lookfrom</type>
     <internal archive="y">true</internal>
     <config>
       <from-model type="bool">true</from-model>
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-      <x-offset-m archive="y">  -0.54000 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  -0.50000 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -15.17172 </z-offset-m> <!-- Back  -->
-      <pitch-offset-deg> 0.5 </pitch-offset-deg>
-      <heading-offset-deg> -30 </heading-offset-deg>
-      <default-field-of-view-deg type="double"> 12 </default-field-of-view-deg>
+      <x-offset-m archive="y">  0.0 </x-offset-m> <!-- Right -->
+      <y-offset-m archive="y">  -1.6 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -17.0 </z-offset-m> <!-- Back  -->
+      <pitch-offset-deg> -12 </pitch-offset-deg>
+      <heading-offset-deg> 0 </heading-offset-deg>
+      <default-field-of-view-deg type="double"> 75 </default-field-of-view-deg>
     </config>
   </view>
 
@@ -101,7 +102,7 @@ Modified by lastmin-II, 07.2015:
       <y-offset-m archive="y">  -0.50500 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -15.17172 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> -10 </pitch-offset-deg>
-      <default-field-of-view-deg> 63 </default-field-of-view-deg>
+      <default-field-of-view-deg> 88 </default-field-of-view-deg>
     </config>
   </view>
 
