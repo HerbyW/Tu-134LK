@@ -4,6 +4,8 @@ for FlightGear Flightsimulator by Herbert Wagner
 
 licensed under the GNU General Public License v2.0
 
+Installation: Unzip and copy into the aircraft folder. (folder name: "Tu-134LK")
+
 **************************************************
 
 Update Herbert Wagner 2018 (schamangerbert, HerbyW)
