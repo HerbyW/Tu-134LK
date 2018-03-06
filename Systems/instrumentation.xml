@@ -132,8 +132,4 @@
     <number>0</number>
   </radar>
 
-  <idr-1>
-    <caged-flag type="bool" >true</caged-flag>
-  </idr-1>
-
 </PropertyList>

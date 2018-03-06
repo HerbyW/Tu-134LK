@@ -1,32 +1,17 @@
-# Tu-134 LK
+# shuttle (renamed from SpaceShuttle)
 
-for FlightGear Flightsimulator by Herbert Wagner
+for Flightgear Flightsimulator by Herbert Wagner 2016-2018 (schamangerbert, HerbyW)
 
-licensed under the GNU General Public License v2.0
+Based on works from: Gijs de Rooy, NASA (3D)
 
-Installation: Unzip and copy into the aircraft folder. (folder name: "Tu-134LK")
+Interior cockpit 3d model: original by Chris Kuhn,
+adapted for SpaceShuttle by Richard Harrison with permission from Chris Kuhn
+Low resolution model modified by Herbert Wagner
 
-**************************************************
+LICENSE: This aircraft is released under the GNU GPL v2 License, see COPYING file.
 
-Update Herbert Wagner 2018 (schamangerbert, HerbyW)
+Installation: Unzip and copy into the aircraft folder. (folder name: "shuttle")
 
-Ongoing development by Herbert Wagner with new version: Tu-134LK - Cosmonaut training version.
-- animations
-- Multiplayer
-- rembrandt
-- FDM
-- instrumentation
-- effects
-.......
+See aircraft help for detailed instructions.
 
-
-Thanks
-======
-
-===============
-BARANGER Emmanuel
-2012 April, 23, 
-
-http://helijah.free.fr/flightgear/hangar.htm
-http://embaranger.free.fr
-embaranger@free.fr
+This version of the space shuttle is for fun only, all animations are in the multiplayer, Rembrandt ready.

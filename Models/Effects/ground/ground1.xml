@@ -11,10 +11,10 @@
     <condition>
       <and>
         <!-- /gear/gear[1]/wow -->
-        <property>sim/multiplay/generic/float[9]</property>
+        <property>sim/multiplay/generic/int[16]</property>
         <greater-than>
           <!-- /gear/gear[1]/rollspeed-ms -->
-          <property>sim/multiplay/generic/float[12]</property>
+          <property>sim/multiplay/generic/float[9]</property>
           <value>15</value>
         </greater-than>
       </and>

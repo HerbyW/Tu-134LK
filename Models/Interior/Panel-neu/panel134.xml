@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+Copyright (C) Herbert Wagner Nov2016
+see Read-Me.txt for all copyrights in the base folder of this aircraft
+-->
+
+<PropertyList>
+
+  
+  <path>Panel134-03.ac</path>
+
+  <!-- YOKES -->
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/yokes/yokes.xml</path>
+  </model>
+  
+  <!-- Warning Indicator: fuel-low and over-speed,over-loading, Decision-Height, Parking Chokes, Marker (outer, middle, inner) -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning88.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.317 </y-m>
+      <z-m>  0.21 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning34.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.337 </y-m>
+      <z-m>  0.21 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning26.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.526 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning31.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.483 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>  
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning85.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.44 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning86.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.397 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning87.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.397 </y-m>
+      <z-m>  0.212 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning16.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.526 </y-m>
+      <z-m>  0.212 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning17.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.483 </y-m>
+      <z-m>  0.212 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning25.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.44 </y-m>
+      <z-m>  0.212 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/volume/volume.xml</path>
+    <offsets>
+      <x-m>  0.0035 </x-m>
+      <y-m> -0.765 </y-m>
+      <z-m>  -0.22 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI, FDI Flight Director Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.54 </y-m>
+      <z-m>  0.06 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> 0.54 </y-m>
+      <z-m> 0.06 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- UAP-12, AOA indicator --> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uap-12/uap-12.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> -0.223 </y-m>
+      <z-m> 0.215 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI2, Artificial Horizont -->
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ai2/ai2.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.349 </y-m>
+      <z-m> 0.127 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ai2/ai2.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> 0.349 </y-m>
+      <z-m> 0.127 </z-m>
+    </offsets>
+  </model>
+
+    <!-- IKU-1 Heading Indicator VOR/ADF -->
+    
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/iku-1/iku-1.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> -0.65 </y-m>
+      <z-m> -0.077 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- EUP Turn Coordinator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.377 </y-m>
+      <z-m>  -0.166 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> 0.008 </x-m>
+      <y-m> 0.377 </y-m>
+      <z-m> -0.166 </z-m>
+    </offsets>
+  </model>
+
+    <!-- TNV-15, OUtside Temperatur Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/tnv-15/tnv-15.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.635 </y-m>
+      <z-m>  -0.22 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/tnv-15/tnv-15.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.635 </y-m>
+      <z-m>  -0.22 </z-m>
+    </offsets>
+  </model>
+    
+  <!-- PNP, HSI Horizontal Situation Indicator from TU154b-->
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/pnp/pnp.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.54 </y-m>
+      <z-m>  -0.072 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/pnp/pnp.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m>  0.54 </y-m>
+      <z-m>  -0.072 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI, Indicated Airspeed Indicator, for use with the Autothrottle in kt-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.648 </y-m>
+      <z-m>  0.019 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.648 </y-m>
+      <z-m> 0.019 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI, Indicated Airspeed Indicator, for use with the Autothrottle in km/h -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/asi-ru/asi-ru.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.555 </y-m>
+      <z-m>  -0.22 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/asi-ru/asi-ru.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m>  0.555 </y-m>
+      <z-m>  -0.22 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Mach Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/m_ind-1/m_ind-1.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.74 </y-m>
+      <z-m>  0.015 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ALT, Barometric Altimeter IN Hg/mm in meter and feet-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvid-15/uvid-15-m.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.428 </y-m>
+      <z-m> -0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvid-15/uvid-15-m.xml</path>
+    <offsets>
+      <x-m> 0.008 </x-m>
+      <y-m> 0.428 </y-m>
+      <z-m>-0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvid-15/uvid-15-ft.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.336 </y-m>
+      <z-m> -0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvid-15/uvid-15-ft.xml</path>
+    <offsets>
+      <x-m> 0.008 </x-m>
+      <y-m> 0.336 </y-m>
+      <z-m>-0.075 </z-m>
+    </offsets>
+  </model>
+
+    <!-- UVO, Altimeter Electric -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvo/uvo.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.46 </y-m>
+      <z-m>  -0.215 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvo/uvo.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.46 </y-m>
+      <z-m>  -0.215 </z-m>
+    </offsets>
+  </model>
+ 
+  
+  <!-- VAR-30, Rate and Climb Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/var/var-30.xml</path>
+    <offsets>
+      <x-m> 0.005  </x-m>
+      <y-m> -0.435  </y-m>
+      <z-m>  0.019 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/var/var-30.xml</path>
+    <offsets>
+      <x-m> 0.005  </x-m>
+      <y-m>  0.435  </y-m>
+      <z-m>  0.019 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VAR-75, Vertical Velocity Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/var/var-75.xml</path>
+    <offsets>
+      <x-m> -0.0   </x-m>
+      <y-m> -0.737 </y-m>
+      <z-m> -0.08 </z-m>
+    </offsets>
+  </model>
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/var/var-75.xml</path>
+    <offsets>
+      <x-m> -0.0   </x-m>
+      <y-m>  0.737 </y-m>
+      <z-m> -0.08 </z-m>
+    </offsets>
+  </model>
+    
+  
+
+  <!-- DME40, VOR-DME and DME distance information in mi, kt and min -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/DME40/dme40.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.126 </y-m>
+      <z-m>  -0.035 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/DME40/dme40-2.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.176 </y-m>
+      <z-m> -0.035 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Gear Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/gear-warning/ind_14.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  -0.054 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Spoiler Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/warning40.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  -0.01 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Flaps Indicator for Landing and Starting -->  
+ 
+  <model>
+    <name>flaps_ind</name>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/flaps_ind/flaps_ind.xml</path>    
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.059 </y-m>
+      <z-m>  -0.035 </z-m>      
+      <heading-deg>90.0</heading-deg>
+    </offsets>    
+  </model>
+  
+  <!-- Desition Hight Indicator -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/rv-5m/rv-5m.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.338 </y-m>
+      <z-m> 0.019 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Air- and Groundspeed Indicator in km/h -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/speed_ind/speed_ind.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.80 </y-m>
+      <z-m>  -0.138 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/speed_ind/speed_ind.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m>  0.80 </y-m>
+      <z-m>  0.138 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- Clock -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/achs-2/achs-2.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> 0.223 </y-m>
+      <z-m> 0.215 </z-m>
+    </offsets>
+  </model>
+  
+    <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/achs-2/timeset.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> 0.223 </y-m>
+      <z-m> 0.215 </z-m>
+    </offsets>
+  </model>
+
+  <!-- UT7A, Exhaust gas temperature indicator with Fuel-To-Air-Ratio (calculated, not too realistic) -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ut/ut7a-1.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  -0.14 </y-m>
+      <z-m> 0.215 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ut/ut7a-2.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.14 </y-m>
+      <z-m> 0.215 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>
+  
+  
+  <!-- RPM, 1-Engine N2 RPM indicators, 2-Power to propeller -->
+  
+  <model>      
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.05 </y-m>
+      <z-m> 0.215 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets> 
+   </model>
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> 0.05 </y-m>
+      <z-m> 0.215 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+
+  <!-- UIZ, Fuel and Oil Pressure, Oil Temp (calculated, not too realistic) -->
+  
+  <model>
+    <name>uiz-1</name>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uiz/uiz-1.xml</path>    
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.14 </y-m>
+      <z-m> 0.14 </z-m>
+      <heading-deg>0.0</heading-deg>     
+    </offsets>
+  </model>
+  
+  <model>
+    <name>uiz-1</name>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uiz/uiz-2.xml</path>    
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> 0.14 </y-m>
+      <z-m> 0.14 </z-m>
+      <heading-deg>0.0</heading-deg>     
+    </offsets>
+  </model>
+
+  <!-- Fuel Control: Knob (activates the fuel system)
+                     Total Fuel Sum below 10 t for all tanks combined
+                     Total Fuel in t and in percent for all tanks combined
+                     Tank 1+2, Tank 3+4 Fuel Flow and Sum in t -->
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel_knob.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.131 </y-m>
+      <z-m> -0.162 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel-lamp-green.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m> -0.131 </y-m>
+      <z-m> -0.122 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>  
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel_sum.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.061 </y-m>
+      <z-m> -0.15 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel1.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> 0.026 </y-m>
+      <z-m> -0.15 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel1_R.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.112 </y-m>
+      <z-m> -0.15 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel1_R1.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.199 </y-m>
+      <z-m> -0.15 </z-m>
+      <heading-deg>180.0</heading-deg>
+    </offsets>
+  </model>
+  
+    <!-- Engine Ignition Switches and Lamps -->
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/lamp-engine0.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m> -0.248 </y-m>
+      <z-m> -0.177 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/lamp-engine-green1.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m> -0.248 </y-m>
+      <z-m> -0.122 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/lamp-engine1.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m> -0.177 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/lamp-engine-green2.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m> -0.122 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model> 
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/switch/engine0.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.248 </y-m>
+      <z-m> -0.147 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>  
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/switch/engine1.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m> -0.147 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>  
+
+    <!-- 6 Generator Switches -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/generator1.xml</path>
+    <offsets>
+      <x-m>  0.0031 </x-m>
+      <y-m> -0.248 </y-m>
+      <z-m>  -0.05 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/generator2.xml</path>
+    <offsets>
+      <x-m>  0.0031 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m>  -0.05 </z-m>
+    </offsets>
+  </model>
+
+  <text>
+    <name>GEN</name>
+    <type type="string">literal</type>
+    <text type="string">Gen 1-2</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.012</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.08</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  -0.23 </y-m>
+      <z-m>  -0.075 </z-m>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>GEN</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+  <!-- 6 Starter Buttons -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/starter1.xml</path>
+    <offsets>
+      <x-m>  0.0031 </x-m>
+      <y-m> -0.248 </y-m>
+      <z-m>  -0.0 </z-m>
+    </offsets>
+  </model>
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/starter2.xml</path>
+    <offsets>
+      <x-m>  0.0031 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m>  -0.0 </z-m>
+    </offsets>
+  </model>
+  
+  <text>
+    <name>START</name>
+    <type type="string">literal</type>
+    <text type="string">Starter 1-2</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.012</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.12</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  -0.23 </y-m>
+      <z-m>  -0.027 </z-m>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>START</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+
+   <!--Variometer, For Cabine and Outside pressure control--> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvpd/uvpd.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.223 </y-m>
+      <z-m> 0.128  </z-m>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uvpd/uvpd.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m>  0.223 </y-m>
+      <z-m> 0.128  </z-m>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+       <!-- Trim Neutral Placecards -->
+      
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/trim-neutral/ind_8.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.81 </y-m>
+      <z-m> -0.026 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/trim-neutral/ind_8.xml</path>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.81 </y-m>
+      <z-m> -0.026 </z-m>
+    </offsets>
+  </model>
+ 
+
+  <!--Autopilot
+		Lake of Constance Hangar :: M.Kraus
+		Boeing 707 for Flightgear Septemper 2013
+		This file is licenced under the terms of the GNU General Public Licence V2 or later
+		###################################################################################
+		completly simplified by HerbyW Jan 2014 
+-->
+  
+ <model>
+  <name>Autopilot Helper</name>
+  <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ap/ap-mach.xml</path>
+  <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.215 </y-m>
+      <z-m>  0.064 </z-m>
+  </offsets>
+ </model>
+ 
+ <model>
+  <name>Set Hight</name>
+  <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/alt-set/alt-set.xml</path>
+  <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.203 </y-m>
+      <z-m>  0.038 </z-m>
+  </offsets>
+ </model>
+ 
+ <model>
+  <name>Set Pitch</name>
+  <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/alt-set/pitch-set.xml</path>
+  <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.18 </y-m>
+      <z-m>  0.198 </z-m>
+  </offsets>
+ </model>
+    
+   <!--Throttle, Propeller-Pitch, Mixture Control Panel -->
+ 
+ <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/throttlebox/throttlebox.xml</path>
+    <offsets>
+      <x-m> 0</x-m>
+      <y-m> 0.20 </y-m>
+      <z-m> 0.045 </z-m>
+      <heading-deg>0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/switch/reverser.xml</path>
+    <offsets>
+      <x-m> 0.078</x-m>
+      <y-m> -0.24 </y-m>
+      <z-m> -0.267 </z-m>
+      <heading-deg>0</heading-deg>
+      <pitch-deg>-47</pitch-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-reverser.xml</path>
+    <offsets>
+      <x-m> 0.035</x-m>
+      <y-m> -0.24 </y-m>
+      <z-m> -0.26 </z-m>
+      <heading-deg>0</heading-deg>
+      <pitch-deg>-43</pitch-deg>
+    </offsets>
+  </model>
+  
+      <!--wind indicator -->
+ 
+ <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/windcompass/windcompass.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> -0.437 </y-m>
+      <z-m> 0.096 </z-m>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+  <!--USH, USHDB ADF and VOR Navigation Compasses : Navigator View-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ushdb/ushdb.xml</path>
+    <offsets>
+      <x-m>  1.89 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.423 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ushdb/ushdb_selector.xml</path>
+    <offsets>
+      <x-m>  1.89 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.28 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-adf1.xml</path>
+    <offsets>
+      <x-m>  1.94 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.26 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-adf2.xml</path>
+    <offsets>
+      <x-m>  1.84 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.26 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-nav1.xml</path>
+    <offsets>
+      <x-m>  1.94 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.33 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-nav2.xml</path>
+    <offsets>
+      <x-m>  1.84 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.33 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <text>
+    <name>NAV_ADF</name>
+    <type type="string">literal</type>
+    
+    <text type="string">
+      1 NAV/VOR 2
+      
+      
+      
+      
+      1 ADF/ARK 2</text>
+    
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.010</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.11</max-height>
+    <max-width>0.10</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  1.88 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.28 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+      </offsets>
+  </text>
+  
+  <animation>
+    <type>material</type>    
+    <object-name>NAV_ADF</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.5 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ush/ush.xml</path>
+    <offsets>
+      <x-m>  1.74 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.423 </z-m>
+      <heading-deg>270.0</heading-deg>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+ 
+  <!--engineur panel: Skawk Transponder Control Module
+                      KM-5 magnetic variation module,
+                      PU-11 TKS compass system, the lateral gyro control panel
+                      Kurs-MP 1+2 nav radios, left knop controls the bearing, right knop the frequency,
+                               only the left Kurs-MP 1 is used for ILS-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/skawk/skawk.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.45 </y-m>
+      <z-m>  0.540 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/skawk-lamp-green.xml</path>
+    <offsets>
+      <x-m>  2.095 </x-m>
+      <y-m>  0.488 </y-m>
+      <z-m>  0.549 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/km-5/km-5-1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.25  </y-m>
+      <z-m>  0.530 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/kurs-mp/kurs-mp-1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.50 </y-m>
+      <z-m>  0.40 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/kurs-mp/kurs-mp-2.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.30 </y-m>
+      <z-m>  0.40 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/radio/radio1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.5 </y-m>
+      <z-m>  0.2935 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/dme/dme1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.3 </y-m>
+      <z-m> 0.2935 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+      
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/radio/radio2.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.5 </y-m>
+      <z-m>  0.215 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/dme/dme2.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.3 </y-m>
+      <z-m> 0.215 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ark-15/ark-15-1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m> 0.397 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-adf1.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m> 0.40 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ark-15/ark-15-2.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m> 0.247 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/red-lamp-adf2.xml</path>
+    <offsets>
+      <x-m>  2.08 </x-m>
+      <y-m>  0.1 </y-m>
+      <z-m> 0.265 </z-m>
+      <heading-deg>180</heading-deg>
+    </offsets>
+  </model> 
+  
+ 
+ <!-- Engineer Panel   RPM, 1-Engine N2 RPM indicators, -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m>  1.60 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.277 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  1.50 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.277 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+    
+  
+ 
+   <!-- Fuel Control Ingineer Panel: Knob, activating the fuel system 
+                     Total Fuel Sum below 10 t for all tanks combined
+                     Total Fuel in t and in percent for all tanks combined
+                     Tank 1-4, Fuel Flow and Sum in t -->
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel_knob.xml</path>
+    <offsets>
+      <x-m>  1.95 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.0 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel-lamp-green.xml</path>
+    <offsets>
+      <x-m>  1.90 </x-m>
+      <y-m> 0.805</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>  
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel1-green.xml</path>
+    <offsets>
+      <x-m>  1.92 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>  
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel2-green.xml</path>
+    <offsets>
+      <x-m>  1.94 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel3-green.xml</path>
+    <offsets>
+      <x-m>  1.96 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel4-green.xml</path>
+    <offsets>
+      <x-m>  1.98 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/fuel5-green.xml</path>
+    <offsets>
+      <x-m>  2.0 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.046 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel_sum.xml</path>
+    <offsets>
+      <x-m>  2.0 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.1943 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+    
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel1.xml</path>
+    <offsets>
+      <x-m>  1.9 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.193 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel3_R1.xml</path>
+    <offsets>
+      <x-m>  1.80 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.193 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel3_R.xml</path>
+    <offsets>
+      <x-m>  1.70 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.193 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel2_R1.xml</path>
+    <offsets>
+      <x-m>  1.60 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.193 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/fuel/fuel2_R.xml</path>
+    <offsets>
+      <x-m>  1.50 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.193 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  
+
+ <!-- Pressuremeters 4-2 and 8-2  -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/pres4_2/pres42_1.xml</path>
+    <offsets>
+      <x-m>  1.50 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.115 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+ 
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/pres4_2/pres42_2.xml</path>
+    <offsets>
+      <x-m>  1.600 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.115 </z-m>
+      <heading-deg>90.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- UT7A, Exhaust gas temperature indicator with Fuel-To-Air-Ratio (calculated, not too realistic) -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ut/ut7a-1.xml</path>
+    <offsets>
+      <x-m>  1.4700 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.052 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/ut/ut7a-2.xml</path>
+    <offsets>
+      <x-m>  1.570 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.052 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+ 
+ <!-- UIZ, Fuel and Oil Pressure, Oil Temp (calculated, not too realistic) -->
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uiz/uiz-2.xml</path>
+    <offsets>
+      <x-m>  1.62 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.005 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/uiz/uiz-1.xml</path>
+    <offsets>
+      <x-m>  1.52 </x-m>
+      <y-m> 0.785</y-m>
+      <z-m> 0.005 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Engineer Panel Lamps --> 
+  
+     <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/press2-green.xml</path>
+    <offsets>
+      <x-m>  1.605 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.05 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/press2-red.xml</path>
+    <offsets>
+      <x-m>  1.62 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.05 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+     <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/press1-green.xml</path>
+    <offsets>
+      <x-m>  1.505 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.05 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/press1-red.xml</path>
+    <offsets>
+      <x-m>  1.52 </x-m>
+      <y-m> 0.795</y-m>
+      <z-m> 0.05 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <!--engineur panel: electrics from TU-154b-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/electrics/hz-200.xml</path>
+    <offsets>
+      <x-m>  2.0 </x-m>
+      <y-m> 0.787</y-m>
+      <z-m> 0.1 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/electrics/v-200.xml</path>
+    <offsets>
+      <x-m>  1.93 </x-m>
+      <y-m> 0.787</y-m>
+      <z-m> 0.1 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/electrics/a-200.xml</path>
+    <offsets>
+      <x-m>  1.86 </x-m>
+      <y-m> 0.787</y-m>
+      <z-m> 0.1 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/electrics/v-27.xml</path>
+    <offsets>
+      <x-m>  1.79 </x-m>
+      <y-m> 0.787</y-m>
+      <z-m> 0.1 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/electrics/a-27.xml</path>
+    <offsets>
+      <x-m>  1.72 </x-m>
+      <y-m> 0.787</y-m>
+      <z-m> 0.1 </z-m>
+      <heading-deg>270.0</heading-deg>
+    </offsets>
+  </model>
+  
+    <!--Map case from TU-154B-->
+
+        <!-- Mapcase -->
+  
+  <model>
+    <name>MapCase</name>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/mapcase/mapcase.xml</path>
+    <offsets>
+      <x-m>  1.30 </x-m>
+      <y-m> 1.33</y-m>
+      <z-m> -0.1433 </z-m>
+      <heading-deg>270.0</heading-deg>      
+    </offsets>
+  </model> 
+    
+  <!-- Switches and Buttons -->
+  
+   <!-- Light switches block 1 Beacon-NAV-Instrument Lights-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/bano1.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.0 </y-m>
+      <z-m>  0.130 </z-m>
+    </offsets>
+  </model>
+
+   <!-- NAV Lights Text--> 
+
+  <text>
+    <name>Navlights</name>
+    <type type="string">literal</type>
+    <text type="string">Beacon NAV Strobe
+Lights</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.075</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  -0.0 </y-m>
+      <z-m>  0.10 </z-m>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>Navlights</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+     <!-- Instrument Lights Text--> 
+
+  <text>
+    <name>Instrulights</name>
+    <type type="string">literal</type>
+    <text type="string">Instrument
+Lights</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m>  0.051 </y-m>
+      <z-m>  0.10 </z-m>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>Navlights</object-name>
+    <object-name>Instrulights</object-name> 
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+   
+  <!-- Landing-Taxi Lights Switch -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/azs4-5.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> 0.12 </y-m>
+      <z-m>  0.05 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Landing-Taxi Lights Text -->
+  
+  <text>
+    <name>LandingTaxi</name>
+    <type type="string">literal</type>
+    <text type="string">Landing
+
+    
+      Taxi</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.04</max-height>
+    <max-width>0.025</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m>  0.125 </y-m>
+      <z-m>  0.05 </z-m>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>LandingTaxi</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+         <!-- Three Position Switch -->
+      
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/switch/doors.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.17 </y-m>
+      <z-m>  0.05 </z-m>
+    </offsets>
+  </model>
+  
+  <text>
+    <name>doors</name>
+    <type type="string">literal</type>
+    <text type="string">L+R
+        
+        
+      Doors</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.025</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> 0.17 </y-m>
+      <z-m>  0.05 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>doors</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>0.6</red>
+      <green>0.6</green>
+      <blue>0.9</blue>
+    </emission>
+  </animation>
+
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/doors.xml</path>
+    <offsets>
+      <x-m>  -0.015 </x-m>
+      <y-m>  0.20 </y-m>
+      <z-m>  0.05 </z-m>
+      <heading-deg>0.0</heading-deg>
+    </offsets>
+  </model>
+  
+     <!-- Version Number -->
+  
+  <text>
+        <name>Version</name>
+        <offsets>
+      <x-m>  0.005 </x-m>
+      <y-m> -0.537 </y-m>
+      <z-m>  0.15 </z-m>
+    </offsets>
+        <alignment>center-center</alignment>
+        <axis-alignment>yz-plane</axis-alignment>
+        <type type="string">text-value</type>
+        <property type="string">sim/multiplay/generic/string[1]</property>
+        <format type="string">%.7s</format>
+        <font>arial_black.txf</font>
+        <character-size>0.01</character-size>
+        <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+        <font-resolution>
+            <width type="int">32</width>
+            <height type="int">32</height>
+        </font-resolution>
+  </text>
+    
+    <animation>
+        <type>material</type>
+         <object-name>Version</object-name>         
+        <emission>
+            <red>0.35</red>
+            <green>0.35</green>
+            <blue>0.50</blue>
+        </emission>        
+    </animation>
+
+    <!-- Overhead Panel -->
+    
+    <!-- Switches block 5 MainBattery HelpBattery Inverter-->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/bano5.xml</path>
+    <offsets>
+      <x-m>  0.550 </x-m>
+      <y-m>  -0.25 </y-m>
+      <z-m>  0.595 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- Text 1--> 
+
+  <text>
+    <name>text1</name>
+    <type type="string">literal</type>
+    <text type="string">Main
+Battery</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.305 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text1</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+
+    <!-- Text 2--> 
+
+  <text>
+    <name>text2</name>
+    <type type="string">literal</type>
+    <text type="string">Help
+Battery</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.253 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text2</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+      <!-- Text 3--> 
+
+  <text>
+    <name>text3</name>
+    <type type="string">literal</type>
+    <text type="string">Inverter</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.201 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text3</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+   <!-- Switches block 3 -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/bano3.xml</path>
+    <offsets>
+      <x-m>  0.550 </x-m>
+      <y-m>  -0.078 </y-m>
+      <z-m>  0.595 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </model>
+ 
+    <!-- Text 1--> 
+
+  <text>
+    <name>text1</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+ADF 1</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.133 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text1</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+
+    <!-- Text 2--> 
+
+  <text>
+    <name>text2</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+ADF 2</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.081 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text2</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+      <!-- Text 3--> 
+
+  <text>
+    <name>text3</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+HSI</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  -0.029 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text3</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+  
+     <!-- Switches block 4 -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/bano4.xml</path>
+    <offsets>
+      <x-m>  0.550 </x-m>
+      <y-m>  0.094 </y-m>
+      <z-m>  0.595 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </model>
+ 
+    <!-- Text 4 --> 
+
+  <text>
+    <name>text4</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+Kurs-MP1</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  0.039 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text4</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+      <!-- Text 5 --> 
+  
+  <text>
+    <name>text5</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+Kurs-MP2</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  0.091 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text5</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+      <!-- Text 6 --> 
+  
+    <text>
+    <name>text6</name>
+    <type type="string">literal</type>
+    <text type="string">Power
+SKAWK</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.008</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.035</max-width>
+    <font-resolution>
+      <width type="int">32</width>
+      <height type="int">32</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.532 </x-m>
+      <y-m>  0.143 </y-m>
+      <z-m>  0.580 </z-m>
+      <pitch-deg>56</pitch-deg>
+    </offsets>
+  </text>
+ 
+ <animation>
+    <type>material</type>    
+    <object-name>text6</object-name>    
+    <emission>
+      <factor-prop>controls/switches/gauge-light</factor-prop>
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
+    </emission>
+  </animation>
+  
+    <!-- Ikone Picture -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/ikone.xml</path>
+    <offsets>
+      <x-m>  0.673 </x-m>
+      <y-m>  -0.293 </y-m>
+      <z-m>  0.674 </z-m>
+      <pitch-deg>68</pitch-deg>
+    </offsets>
+  </model>
+
+</PropertyList>

@@ -93,6 +93,23 @@ Modified by lastmin-II, 07.2015:
       <default-field-of-view-deg type="double"> 75 </default-field-of-view-deg>
     </config>
   </view>
+  
+  <view n="105">
+    <name>Engineer</name>
+    <type>lookfrom</type>
+    <internal archive="y">true</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
+      <x-offset-m archive="y">   0.33 </x-offset-m> <!-- Right -->
+      <y-offset-m archive="y">  -0.41 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -14.46 </z-offset-m> <!-- Back  -->
+      <pitch-offset-deg> -2 </pitch-offset-deg>
+      <default-field-of-view-deg type="double"> 85 </default-field-of-view-deg>
+      <heading-offset-deg type="double">180 </heading-offset-deg>
+    </config>
+  </view>
 
   <view n="0">
     <name>Captain Seat View</name>

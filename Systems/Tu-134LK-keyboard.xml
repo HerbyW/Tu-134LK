@@ -2,8 +2,8 @@
 
 <PropertyList>
 
-  <key n="100">
-    <name>d</name>
+  <key n="101">
+    <name>e</name>
     <desc>Crew door</desc>
     <binding>
       <command>nasal</command>
@@ -11,34 +11,24 @@
     </binding>
   </key>
 
-  <key n="68">
-    <name>D</name>
-    <desc>Passenger door</desc>
-    <binding>
-      <command>nasal</command>
-      <script>doors.passenger.toggle();</script>
-    </binding>
-  </key>
+  
 
   <key n="127">
     <name>Delete</name>
-    <desc>Toggle Reversers</desc>
+    <desc>Toggle Reversers</desc>	
     <binding>
       <command>property-toggle</command>
-      <property>controls/engines/engine[0]/reverser</property>
-    </binding>
-    <binding>
-      <command>property-toggle</command>
-      <property>controls/engines/engine[1]/reverser</property>
+      <property>/controls/reverser</property>
     </binding>
   </key>
       
   <key n="115">
     <name>s</name>
-    <desc>Engine Autostart</desc>
+    <desc>Autostart</desc>
     <binding>
-      <command>nasal</command>
-      <script>engines.autostart();</script>
+      <command>property-toggle</command>
+      <property>/sim/model/autostart</property>
+      <value>true</value>
     </binding>
   </key>
    
@@ -64,12 +54,33 @@
   
   <key n="121">
     <name>y</name>
-    <desc>Change Pilot Navigator View</desc>
+    <desc>Change Pilot Navigator Engineer View</desc>
     <binding>
       <command>property-cycle</command>
       <property>sim/current-view/view-number</property>  
       <value>0</value>
       <value>12</value>
+      <value>13</value>
+    </binding>
+  </key>
+  
+  <key n="100">
+    <name>d</name>
+    <desc>Retract Slats</desc>
+    <binding>
+      <command>property-adjust</command>
+      <property>/controls/flight/slats</property>
+      <step type="double">-0.25</step>
+    </binding>
+  </key>
+  
+  <key n="102">
+    <name>f</name>
+    <desc>Extend Slats</desc>
+    <binding>
+      <command>property-adjust</command>
+      <property>/controls/flight/slats</property>
+      <step type="double">0.25</step>
     </binding>
   </key>
    

@@ -16,6 +16,38 @@
       <model type="int">   5 </model>
     </rating>
 
+    <weight n="0">
+    <name>Crew</name>
+    <weight-lb type="double">693</weight-lb>
+    <max-lb type="double">2055</max-lb>
+    <min-lb type="double">400</min-lb>
+  </weight>
+  
+  <weight n="1">
+    <name>Passengers</name>
+    <weight-lb type="double">5000.0</weight-lb>
+    <max-lb type="double">20592</max-lb>
+    <min-lb type="double">0.0</min-lb>
+  </weight>
+  <weight n="2">
+    <name>Cargo</name>
+    <weight-lb type="double">2000.0</weight-lb>
+    <max-lb type="double">9000.0</max-lb>
+    <min-lb type="double">0.0</min-lb>
+  </weight>
+  
+  <systems>
+    <autopilot>
+      <path>Aircraft/Tu-134LK/Systems/Tu-134LK-autopilot.xml</path>
+    </autopilot>      
+  </systems> 
+  
+  <import>
+      <path>Huds/Sets/controls.xml</path>
+      <x-offset>-100</x-offset>
+      <y-offset>70</y-offset>
+    </import> 
+    
   </sim>
 
 </PropertyList>

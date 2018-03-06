@@ -3,7 +3,7 @@
 <PropertyList>
 
   <!-- Cockpit -->
-  <!-- Seats -->
+  <!-- Seats
   <model>
     <path>Aircraft/Tu-134LK/Models/Interior/Seats/pilotseat.xml</path>
     <offsets>
@@ -20,7 +20,7 @@
       <y-m>   0.54000 </y-m>
       <z-m>  -1.12807 </z-m>
     </offsets>
-  </model>
+  </model> -->
 
   <!-- Cabine -->
   <!-- Left -->

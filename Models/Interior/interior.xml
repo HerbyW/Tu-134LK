@@ -83,7 +83,16 @@
   </model>
   -->
 
-  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/panel134.xml</path>
+    <offsets>
+      <x-m> -15.9699 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> -0.8187 </z-m>
+      </offsets>
+  </model>
+  
+  <!-- Tableau de bord
   <model>
     <path>Aircraft/Tu-134LK/Models/Interior/Panel/panel.xml</path>
     <offsets>
@@ -91,9 +100,9 @@
       <y-m>   0.000 </y-m>
       <z-m>  -0.872 </z-m>
     </offsets>
-  </model>
+  </model> -->
 
-  <!-- OverHead -->
+  <!-- OverHead
   <model>
     <path>Aircraft/Tu-134LK/Models/Interior/Panel/Overhead/overhead.xml</path>
     <offsets>
@@ -101,7 +110,7 @@
       <y-m>   0.00000 </y-m>
       <z-m>  -0.12425 </z-m>
     </offsets>
-  </model>
+  </model> -->
 
   <!-- Porte -->
   <animation>
@@ -128,7 +137,7 @@
   <animation>
     <type>rotate</type>
     <object-name>IntLaPorte</object-name>
-    <property>sim/model/door-positions/crew/position-norm</property>
+    <property>sim/multiplay/generic/float[0]</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
       <entry><ind> 0.2 </ind><dep>  0 </dep></entry>
@@ -149,7 +158,7 @@
   <animation>
     <type>translate</type>
     <object-name>IntLaPorte</object-name>
-    <property>sim/model/door-positions/crew/position-norm</property>
+    <property>sim/multiplay/generic/float[0]</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
       <entry><ind> 0.2 </ind><dep> 0.08 </dep></entry>

@@ -4,11 +4,17 @@
 
   <path>tu134.ac</path>
 
+  <!-- MP sound call -->
+  <sound>
+    <path>Aircraft/Tu-134LK/Sounds/Tu-134LK-sound-MP.xml</path>
+  </sound>
+  
   <nasal>
     <load>
-      var update = aircraft.overlay_update.new();
-      update.add("Aircraft/Tu-134LK/Models/Liveries", "sim/model/livery/noze");    
+      
 
+      var livery_update = aircraft.livery_update.new("Aircraft/Tu-134LK/Models/Liveries", 10);
+      
       var self = cmdarg();
 
       var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
@@ -238,7 +244,7 @@
     <object-name>glasslightR</object-name>
   </effect>
   
-  <!-- Une ombre pour OSG -->
+  <!-- Une ombre pour OSG
   <model>
     <path>Aircraft/Tu-134LK/Models/shadow.xml</path>
     <offsets>
@@ -246,7 +252,7 @@
       <y-m>  0.00000 </y-m>
       <z-m> -3.84000 </z-m>
     </offsets>
-  </model>
+  </model> -->
 
   <!-- Interieur -->
   <model>
@@ -389,7 +395,7 @@
   <animation>
     <type>spin</type>
     <object-name>heliceG</object-name>
-    <property>sim/multiplay/generic/float[4]</property>
+    <property>sim/multiplay/generic/float[6]</property>
     <factor> 1 </factor>
     <center>
       <x-m>  6.072 </x-m>
@@ -406,7 +412,7 @@
   <animation>
     <type>spin</type>
     <object-name>heliceD</object-name>
-    <property>sim/multiplay/generic/float[5]</property>
+    <property>sim/multiplay/generic/float[8]</property>
     <factor> 1 </factor>
     <center>
       <x-m>  6.072 </x-m>
@@ -425,7 +431,7 @@
     <type>rotate</type>
     <object-name>direction</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor> 15 </factor>
+    <factor> -15 </factor>
     <axis>
       <x1-m> 11.959 </x1-m>
       <y1-m>  0.000 </y1-m>
@@ -471,7 +477,7 @@
   <animation>
     <type>translate</type>
     <object-name>voletG1</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 0.9 </factor>
     <axis>
       <x> 1 </x>
@@ -483,7 +489,7 @@
   <animation>
     <type>translate</type>
     <object-name>voletG2</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 0.7 </factor>
     <axis>
       <x> 1 </x>
@@ -495,7 +501,7 @@
   <animation>
     <type>rotate</type>
     <object-name>voletG1</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 30 </factor>
     <axis>
       <x1-m>  1.046 </x1-m>
@@ -510,7 +516,7 @@
   <animation>
     <type>rotate</type>
     <object-name>voletG2</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 30 </factor>
     <axis>
       <x1-m>  4.366 </x1-m>
@@ -525,7 +531,7 @@
   <animation>
     <type>translate</type>
     <object-name>voletD1</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 0.9 </factor>
     <axis>
       <x> 1 </x>
@@ -537,7 +543,7 @@
   <animation>
     <type>translate</type>
     <object-name>voletD2</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 0.7 </factor>
     <axis>
       <x> 1 </x>
@@ -549,7 +555,7 @@
   <animation>
     <type>rotate</type>
     <object-name>voletD1</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 30 </factor>
     <axis>
       <x1-m>  1.046 </x1-m>
@@ -564,7 +570,7 @@
   <animation>
     <type>rotate</type>
     <object-name>voletD2</object-name>
-    <property>surface-positions/flaps-pos-norm</property>
+    <property>surface-positions/flap-pos-norm</property>
     <factor> 30 </factor>
     <axis>
       <x1-m>  2.154 </x1-m>
@@ -611,7 +617,7 @@
   <animation>
     <type>rotate</type>
     <object-name>spoilerG</object-name>
-    <property>surface-positions/speedbrake-pos-norm</property>
+    <property>sim/multiplay/generic/float[4]</property>
     <interpolation>
       <entry><ind>  0 </ind><dep>   0 </dep></entry>
       <entry><ind>  1 </ind><dep> -70 </dep></entry>
@@ -629,7 +635,7 @@
   <animation>
     <type>rotate</type>
     <object-name>spoilerD</object-name>
-    <property>surface-positions/speedbrake-pos-norm</property>
+    <property>sim/multiplay/generic/float[4]</property>
     <interpolation>
       <entry><ind>  0 </ind><dep>   0 </dep></entry>
       <entry><ind>  1 </ind><dep> -70 </dep></entry>
@@ -1401,7 +1407,7 @@
   <animation>
     <type>rotate</type>
     <object-name>TrainAvant</object-name>
-    <property>sim/multiplay/generic/float[14]</property>
+    <property>sim/multiplay/generic/float[10]</property>
     <factor> -45 </factor>
     <center>
       <x-m> -14.5803 </x-m>
@@ -1419,7 +1425,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueA</object-name>
-    <property>sim/multiplay/generic/float[11]</property>
+    <property>sim/multiplay/generic/float[9]</property>
     <factor> 30 </factor>
     <center>
       <x-m> -14.426 </x-m>
@@ -1436,7 +1442,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueG1</object-name>
-    <property>sim/multiplay/generic/float[12]</property>
+    <property>sim/multiplay/generic/float[9]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  0.358 </x-m>
@@ -1453,7 +1459,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueG2</object-name>
-    <property>sim/multiplay/generic/float[12]</property>
+    <property>sim/multiplay/generic/float[9]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  1.568 </x-m>
@@ -1470,7 +1476,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueD1</object-name>
-    <property>sim/multiplay/generic/float[13]</property>
+    <property>sim/multiplay/generic/float[9]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  0.358 </x-m>
@@ -1487,7 +1493,7 @@
   <animation>
     <type>spin</type>
     <object-name>roueD2</object-name>
-    <property>sim/multiplay/generic/float[13]</property>
+    <property>sim/multiplay/generic/float[9]</property>
     <factor> 30 </factor>
     <center>
       <x-m>  1.568 </x-m>
@@ -1658,7 +1664,7 @@
   <animation>
     <type>rotate</type>
     <object-name>LampeGauche</object-name>
-    <property>/controls/lighting/landing-lights</property>
+    <property>sim/multiplay/generic/int[9]</property>
     <interpolation>
       <entry><ind> 0 </ind><dep>   0 </dep></entry>
       <entry><ind> 1 </ind><dep> -90 </dep></entry>
@@ -1682,7 +1688,7 @@
   <animation>
     <type>rotate</type>
     <object-name>LampeDroite</object-name>
-    <property>/controls/lighting/landing-lights</property>
+    <property>sim/multiplay/generic/int[9]</property>
     <interpolation>
       <entry><ind> 0 </ind><dep>   0 </dep></entry>
       <entry><ind> 1 </ind><dep> -90 </dep></entry>
