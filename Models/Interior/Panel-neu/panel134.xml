@@ -1531,7 +1531,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
   <model>
     <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/bano/bano1.xml</path>
     <offsets>
-      <x-m>  0.003 </x-m>
+      <x-m>  0.008 </x-m>
       <y-m> -0.0 </y-m>
       <z-m>  0.130 </z-m>
     </offsets>
@@ -1557,7 +1557,7 @@ Lights</text>
     </font-resolution>
     <alignment>center-center</alignment>
     <offsets>
-      <x-m>  0.005 </x-m>
+      <x-m>  0.01 </x-m>
       <y-m>  -0.0 </y-m>
       <z-m>  0.10 </z-m>
     </offsets>
@@ -1594,7 +1594,7 @@ Lights</text>
     </font-resolution>
     <alignment>center-center</alignment>
     <offsets>
-      <x-m>  0.005 </x-m>
+      <x-m>  0.01 </x-m>
       <y-m>  0.051 </y-m>
       <z-m>  0.10 </z-m>
     </offsets>

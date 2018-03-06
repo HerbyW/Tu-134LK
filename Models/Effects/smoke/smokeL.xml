@@ -4,41 +4,47 @@
 
   <particlesystem>
     <name>smoke</name>
-    <texture>noise3.png</texture>
+    <texture>smoke.png</texture>
 
     <emissive>false</emissive>
-    <lighting>true</lighting>
+    <lighting>false</lighting>
 
     <condition>
       <and>
         <greater-than>
           <!-- /engines/engine[0]/n2 -->
           <property>sim/multiplay/generic/float[8]</property>
-          <value>31</value>
+          <value>27</value>
         </greater-than>
         <less-than>
           <!-- /position/altitude-ft -->
           <property>sim/multiplay/generic/float[2]</property>
-          <value>3000</value>
+          <value>13000</value>
         </less-than>
       </and>
     </condition>
 
     <attach>world</attach>
-
+<align>billboard</align>
     <placer>
       <type>point</type>
     </placer>
 
     <shooter>
-      <theta-min-deg>88</theta-min-deg>
-      <theta-max-deg>92</theta-max-deg>
-      <phi-min-deg>-1.5</phi-min-deg>
-      <phi-max-deg>1.5</phi-max-deg>
+      <theta-min-deg>89</theta-min-deg>
+      <theta-max-deg>91</theta-max-deg>
+      <phi-min-deg>-1</phi-min-deg>
+      <phi-max-deg>1</phi-max-deg>
       <speed-mps>
-        <property>sim/multiplay/generic/float[8]</property>
-        <factor>0.13</factor>
-      </speed-mps>
+			  <expression>
+			  <product>
+				<property>sim/multiplay/generic/float[6]</property>
+				<property>sim/multiplay/generic/float[14]</property>
+				<value>1.2</value>
+			  </product>
+			  </expression>
+				<spread>18</spread>
+			</speed-mps>
       <rotation-speed>
         <x-min-deg-sec>0</x-min-deg-sec>
         <y-min-deg-sec>0</y-min-deg-sec>
@@ -51,21 +57,18 @@
 
     <counter>
       <particles-per-sec>
-        <property>sim/multiplay/generic/float[8]</property>
-        <factor>0.5</factor>
-        <spread>20</spread>
-      </particles-per-sec>
+				<value>50</value>
+				<spread>3</spread>
+			</particles-per-sec>
     </counter>
-
-    <align>billboard</align>
 
     <particle>
 			<start>
 				<color>
-					<red><value>0.45</value></red>
-					<green><value>0.45</value></green>
-					<blue><value>0.45</value></blue>
-					<alpha><value>0.03</value></alpha>
+					<red><value>0.35</value></red>
+					<green><value>0.35</value></green>
+					<blue><value>0.35</value></blue>
+					<alpha><value>0.1</value></alpha>
 				</color>
 				<size>
 					<value>0.25</value>
@@ -73,9 +76,9 @@
 			</start>
 			<end>
 				<color>
-					<red><value>0.75</value></red>
-					<green><value>0.75</value></green>
-					<blue><value>0.75</value></blue>
+					<red><value>0.45</value></red>
+					<green><value>0.45</value></green>
+					<blue><value>0.45</value></blue>
 					<alpha><value>0.0</value></alpha>
 				</color>
 				<size>
@@ -83,7 +86,7 @@
 				</size>
 			</end>
 			<life-sec>
-				<value>10</value>
+				<value>6</value>
 			</life-sec>
 			<mass-kg>0.52</mass-kg>
 			<radius-m>0.01</radius-m>

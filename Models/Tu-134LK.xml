@@ -234,7 +234,7 @@
     <object-name>noze2</object-name>
   </effect>
 
-  <!-- working for Rembrandt -->
+  <!-- working for Rembrandt
   <effect>
     <inherits-from>Aircraft/Tu-134LK/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
@@ -242,7 +242,30 @@
     <object-name>vitreporte</object-name>
     <object-name>glasslightL</object-name>
     <object-name>glasslightR</object-name>
-  </effect>
+  </effect> -->
+  
+  
+  <!-- working for Rembrandt -->
+    
+    <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <condition>
+            <property>/sim/rendering/rembrandt/enabled</property>
+        </condition>
+        <object-name>vitres</object-name>
+    <object-name>vitresnoze0</object-name>
+    <object-name>vitreporte</object-name>
+    <object-name>glasslightL</object-name>
+    <object-name>glasslightR</object-name>
+    </effect>
+    
+    <animation>
+        <object-name>vitres</object-name>
+    <object-name>vitresnoze0</object-name>
+    <object-name>vitreporte</object-name>
+    <object-name>glasslightL</object-name>
+    <object-name>glasslightR</object-name>
+    </animation>  
   
   <!-- Une ombre pour OSG
   <model>

@@ -21,13 +21,33 @@
     <object-name>intvitresnoze0</object-name>
   </animation>
 
-  <!-- working for Rembrandt -->
+  <!-- working for Rembrandt
   <effect>
     <inherits-from>Aircraft/Tu-134LK/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
     <object-name>intvitreporte</object-name>
     <object-name>intvitresnoze0</object-name>
-  </effect>
+  </effect> -->
+  
+  <!-- working for Rembrandt -->
+    
+    <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <condition>
+            <property>/sim/rendering/rembrandt/enabled</property>
+        </condition>
+        <object-name>vitres</object-name>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreporte</object-name>
+    <object-name>intvitresnoze0</object-name>
+    </effect>
+    
+    <animation>
+        <object-name>vitres</object-name>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreporte</object-name>
+    <object-name>intvitresnoze0</object-name>
+    </animation>  
   
   <!-- Les sieges -->
   <model>

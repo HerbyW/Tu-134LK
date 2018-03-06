@@ -26,3 +26,12 @@ var next_waypoint = func {
 	settimer(next_waypoint, 0);
 }
 settimer(next_waypoint, 0);
+
+#################################################################
+
+var gsnull = maketimer (2, func {
+
+if(getprop("/instrumentation/nav[0]/gs-in-range") == 0)
+setprop("/instrumentation/nav[0]/gs-rate-of-climb", 0);
+});
+gsnull.start();

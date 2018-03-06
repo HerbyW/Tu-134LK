@@ -13,7 +13,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
 <!-- Light switches block -AN-12
 3D instrument for Tu-154 -->
 <PropertyList>
- <path>bano5.ac</path>
+ <path>bano5b.ac</path>
 <!--External panel lighting-->
 <animation>
   <type>material</type>
