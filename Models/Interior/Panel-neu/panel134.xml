@@ -473,7 +473,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     <offsets>
       <x-m>  0.008 </x-m>
       <y-m>  0.80 </y-m>
-      <z-m>  0.138 </z-m>
+      <z-m>  -0.138 </z-m>
       <heading-deg>180.0</heading-deg>
     </offsets>
   </model>

@@ -13,7 +13,7 @@
       <and>
         <greater-than>
           <!-- /engines/engine[0]/n2 -->
-          <property>sim/multiplay/generic/float[8]</property>
+          <property>sim/multiplay/generic/float[6]</property>
           <value>27</value>
         </greater-than>
         <less-than>

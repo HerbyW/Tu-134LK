@@ -1,17 +1,15 @@
-# shuttle (renamed from SpaceShuttle)
+# Tu-134LK - Cosmonaut training version (YASim)
 
-for Flightgear Flightsimulator by Herbert Wagner 2016-2018 (schamangerbert, HerbyW)
+for Flightgear Flightsimulator by Herbert Wagner 2016-2019 (schamangerbert, HerbyW)
 
-Based on works from: Gijs de Rooy, NASA (3D)
+Based on works from: Emmanuel BARANGER (3D/FDM), Artem Kovalchuk and Gary Buckaroo (FDM)
 
-Interior cockpit 3d model: original by Chris Kuhn,
-adapted for SpaceShuttle by Richard Harrison with permission from Chris Kuhn
-Low resolution model modified by Herbert Wagner
+aircraft-version 2.1
 
 LICENSE: This aircraft is released under the GNU GPL v2 License, see COPYING file.
 
-Installation: Unzip and copy into the aircraft folder. (folder name: "shuttle")
+Installation: Unzip and copy into the aircraft folder. (folder name: "Tu-134LK")
 
 See aircraft help for detailed instructions.
 
-This version of the space shuttle is for fun only, all animations are in the multiplayer, Rembrandt ready.
+All animations are in the multiplayer, Rembrandt ready.

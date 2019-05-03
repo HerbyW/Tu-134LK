@@ -1,6 +1,5 @@
 ####    jet engine electrical system    ####
 ####    Syd Adams    ####
-# modified by Herbert Wagner for IL-76MD with 4 engines: 10/2016
 # modified by Herbert Wagner for Tu-134LK with 2 engines: 03/2018
 
 var count=0;
@@ -153,11 +152,8 @@ var init_switches = func{
     setprop("/controls/lighting/efis-norm",0.8);
     setprop("/controls/lighting/panel-norm",0.8);
 
-    append(lights_input,props.globals.initNode("/controls/lighting/landing-light[0]",0,"BOOL"));
-    append(lights_output,props.globals.initNode("/systems/electrical/outputs/landing-light[0]",0,"DOUBLE"));
-    append(lights_load,1);
-    append(lights_input,props.globals.initNode("/controls/lighting/landing-light[1]",0,"BOOL"));
-    append(lights_output,props.globals.initNode("/systems/electrical/outputs/landing-light[1]",0,"DOUBLE"));
+    append(lights_input,props.globals.initNode("/controls/lighting/landing-lights",0,"BOOL"));
+    append(lights_output,props.globals.initNode("/systems/electrical/outputs/landing-lights",0,"DOUBLE"));
     append(lights_load,1);
     append(lights_input,props.globals.initNode("/controls/lighting/nav-lights",0,"BOOL"));
     append(lights_output,props.globals.initNode("/systems/electrical/outputs/nav-lights",0,"DOUBLE"));
@@ -180,8 +176,8 @@ var init_switches = func{
     append(lights_input,props.globals.initNode("/controls/lighting/logo-lights",0,"BOOL"));
     append(lights_output,props.globals.initNode("/systems/electrical/outputs/logo-lights",0,"DOUBLE"));
     append(lights_load,1);
-    append(lights_input,props.globals.initNode("/controls/lighting/taxi-lights",0,"BOOL"));
-    append(lights_output,props.globals.initNode("/systems/electrical/outputs/taxi-lights",0,"DOUBLE"));
+    append(lights_input,props.globals.initNode("/controls/lighting/taxi-light",0,"BOOL"));
+    append(lights_output,props.globals.initNode("/systems/electrical/outputs/taxi-light",0,"DOUBLE"));
     append(lights_load,1);
     append(lights_input,props.globals.initNode("/controls/lighting/beacon-state/state",0,"BOOL"));
     append(lights_output,props.globals.initNode("/systems/electrical/outputs/beacon",0,"DOUBLE"));

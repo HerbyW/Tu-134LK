@@ -132,6 +132,15 @@ Approach Elevator: -0.35942
    Tail Incidence: 0.399204
 Approach Elevator: -0.297242
             CG: 0.777, -0.000, -0.287
+            
+            YASim solution results:
+       Iterations: 1814
+ Drag Coefficient: 8.46313
+       Lift Ratio: 122.108
+       Cruise AoA: 0.0874657
+   Tail Incidence: -0.397572
+Approach Elevator: -0.297203
+            CG: 0.777, -0.000, -0.287
 
 -->
 
@@ -255,7 +264,7 @@ Approach Elevator: -0.297242
          <control-input axis="/controls/flight/elevator" control="FLAP0"/>
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
          <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
-         <control-speed control="FLAP0" transition-time="10.0"/>
+         <control-speed control="FLAP0" transition-time="20.0"/>
   </hstab>
 
   <vstab x="-10.634" y="0.00" z="0.096" 

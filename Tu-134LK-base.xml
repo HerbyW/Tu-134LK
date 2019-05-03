@@ -9,7 +9,7 @@
        <beacon type="bool">false</beacon>
        <strobe type="bool">false</strobe>
        <landing-lights type="int">0</landing-lights>
-       <taxi-lights type="int">0</taxi-lights>
+       <taxi-light type="int">0</taxi-light>
     </lighting>
      <engines>
       <engine n="0">
@@ -63,8 +63,8 @@
 
     <description>Tu-134LK - Cosmonaut training version (YASim)</description>
     <author>Herbert Wagner, Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
-    <aircraft-version>1.1</aircraft-version>
-    <status>beta</status>
+    <aircraft-version>2.1</aircraft-version>
+    <status>production</status>
 
     <fuel-fraction>0.5</fuel-fraction>
     <signals><fdm-ready type="int">0</fdm-ready></signals>
@@ -82,7 +82,7 @@
         <noze type="int">1</noze>
       </livery>
       <tu134>
-	<version type="string">1.1</version>
+	<version type="string">2.1</version>
       </tu134>
       <hide-yoke type="bool">true</hide-yoke>
     </model>
@@ -104,7 +104,7 @@
             <int type="int" n="7" alias="/controls/lighting/nav-lights"/>
             <int type="int" n="8" alias="/sim/model/livery/noze">1</int>         <!--  8 Noze type -->
             <int type="int" n="9" alias="/controls/lighting/landing-lights"/>
-            <int type="int" n="10" alias="/controls/lighting/taxi-lights"/>
+            <int type="int" n="10" alias="/controls/lighting/taxi-light"/>
             <int type="int" n="11" alias="/controls/switches/fuel">  0 </int>
             <int type="int" n="12" alias="/controls/lighting/strobe-state/state"/>
             <int type="int" n="13" alias="/controls/engines/engine[0]/starting">  0 </int>
@@ -158,6 +158,8 @@
       </spoilers>
     
     <help include="Systems/help.xml"/>
+    
+    <flight-recorder include="Systems/flightrecorder.xml"/>
 
     <menubar include="Dialogs/Tu-134LK-menu.xml"/>
     

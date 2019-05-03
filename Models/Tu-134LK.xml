@@ -1594,7 +1594,16 @@
     <offsets>
       <x-m> 0.00000 </x-m>
       <y-m> 0.00000 </y-m>
-      <z-m> 0.29370 </z-m>
+      <z-m> 0.35 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m> 4.80000 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> -2.68 </z-m>
     </offsets>
   </model>
 
@@ -1602,128 +1611,97 @@
     <path>Aircraft/Tu-134LK/Models/lights/RedLight.xml</path>
     <offsets>
       <x-m>   6.44273 </x-m>
-      <y-m> -14.44380 </y-m>
+      <y-m> -14.480 </y-m>
       <z-m>  -2.52373 </z-m>
     </offsets>
   </model>
+  
+   <model>
+    <path>Aircraft/Tu-134LK/Models/lights/GreenLight.xml</path>
+    <offsets>
+      <x-m>  6.44273 </x-m>
+      <y-m> 14.480 </y-m>
+      <z-m> -2.52373 </z-m>
+    </offsets>
+  </model>
+
+   <model>
+    <path>Aircraft/Tu-134LK/Models/lights/WhiteLight.xml</path>
+    <offsets>
+      <x-m>  17.66 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 4.483 </z-m>
+    </offsets>
+  </model>
+
 
   <model>
     <path>Aircraft/Tu-134LK/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>   6.56320 </x-m>
-      <y-m> -14.45990 </y-m>
+      <y-m> -14.490 </y-m>
       <z-m>  -2.52058 </z-m>
     </offsets>
   </model>
 
-  <model>
-    <path>Aircraft/Tu-134LK/Models/lights/GreenLight.xml</path>
-    <offsets>
-      <x-m>  6.44273 </x-m>
-      <y-m> 14.44380 </y-m>
-      <z-m> -2.52373 </z-m>
-    </offsets>
-  </model>
-
+ 
   <model>
     <path>Aircraft/Tu-134LK/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>  6.56320 </x-m>
-      <y-m> 14.45990 </y-m>
+      <y-m> 14.490 </y-m>
       <z-m> -2.52058 </z-m>
     </offsets>
   </model>
 
-  <!-- Light cone left -->
-  <model>
-    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
+  <!-- NEW   Taxi and Landing lights-->
+ 
+ <model>
+    <path>Aircraft/Tu-134LK/Models/lights/Tu-134LK-lights.xml</path>
     <offsets>
-      <x-m>      -16.04573 </x-m>
-      <y-m>       -0.94337 </y-m>
-      <z-m>       -2.27202 </z-m>
-      <pitch-deg> -7.5 </pitch-deg>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
     </offsets>
   </model>
+  
+  
+    <!--runway effect -->
 
-  <!-- Light cone right -->
-  <model>
-    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
-    <offsets>
-      <x-m>      -16.04573 </x-m>
-      <y-m>        0.94337 </y-m>
-      <z-m>       -2.27202 </z-m>
-      <pitch-deg> -7.5 </pitch-deg>
-    </offsets>
-  </model>
-
-  <!-- Light back cone left -->
-  <model>
-    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
-    <offsets>
-      <x-m>       -0.1400 </x-m>
-      <y-m>       -4.2571 </y-m>
-      <z-m>       -2.7452  </z-m>
-      <pitch-deg> -7.5 </pitch-deg>
-    </offsets>
+  <model> 
+      <path>Aircraft/Tu-134LK/Models/Effects/tyres.xml</path>
+      <offsets> 
+          <x-m> 1.76 </x-m>
+          <y-m> -4.77 </y-m>
+          <z-m> -4.26 </z-m>
+      </offsets>
   </model>
   
-  <!-- Light back cone right -->
-  <model>
-    <path>Aircraft/Tu-134LK/Models/lights/light-cone.xml</path>
-    <offsets>
-      <x-m>       -0.1400 </x-m>
-      <y-m>        4.2571 </y-m>
-      <z-m>       -2.7452 </z-m>
-      <pitch-deg> -7.5 </pitch-deg>
-    </offsets>
+  <model> 
+      <path>Aircraft/Tu-134LK/Models/Effects/tyres.xml</path>
+      <offsets> 
+          <x-m> 1.76 </x-m>
+          <y-m> 4.77 </y-m>
+          <z-m> -4.26 </z-m>
+      </offsets>
   </model>
   
-  <animation>
-    <name>LampeGauche</name>
-    <object-name>lightL</object-name>
-    <object-name>glasslightL</object-name>
-  </animation>
+  <model> 
+      <path>Aircraft/Tu-134LK/Models/Effects/ground/touch.xml</path>
+      <offsets> 
+          <x-m> 1.76 </x-m>
+          <y-m> -4.77 </y-m>
+          <z-m> -4.26 </z-m>
+      </offsets>
+  </model>
   
-  <animation>
-    <type>rotate</type>
-    <object-name>LampeGauche</object-name>
-    <property>sim/multiplay/generic/int[9]</property>
-    <interpolation>
-      <entry><ind> 0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 1 </ind><dep> -90 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -16.16749 </x1-m>
-      <y1-m>  -0.83178 </y1-m>
-      <z1-m>  -2.24425 </z1-m>
-      <x2-m> -16.16749 </x2-m>
-      <y2-m>  -0.86873 </y2-m>
-      <z2-m>  -2.20041 </z2-m>
-    </axis>
-  </animation>
-      
-  <animation>
-    <name>LampeDroite</name>
-    <object-name>lightR</object-name>
-    <object-name>glasslightR</object-name>
-  </animation>
+  <model> 
+      <path>Aircraft/Tu-134LK/Models/Effects/ground/touch.xml</path>
+      <offsets> 
+          <x-m> 1.76 </x-m>
+          <y-m> 4.77 </y-m>
+          <z-m> -4.26 </z-m>
+      </offsets>
+  </model>
   
-  <animation>
-    <type>rotate</type>
-    <object-name>LampeDroite</object-name>
-    <property>sim/multiplay/generic/int[9]</property>
-    <interpolation>
-      <entry><ind> 0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 1 </ind><dep> -90 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -16.16749 </x1-m>
-      <y1-m>   0.86873 </y1-m>
-      <z1-m>  -2.20041 </z1-m>
-      <x2-m> -16.16749 </x2-m>
-      <y2-m>   0.83178 </y2-m>
-      <z2-m>  -2.24425 </z2-m>
-    </axis>
-  </animation>
-      
 </PropertyList>

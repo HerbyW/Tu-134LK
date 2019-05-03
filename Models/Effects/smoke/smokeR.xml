@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 
 <PropertyList>
-
-  <particlesystem>
-    <name>smoke</name>
-    <texture>smoke.png</texture>
-
-    <emissive>false</emissive>
-    <lighting>false</lighting>
-
-    <condition>
-      <and>
-        <greater-than>
-          <!-- /engines/engine[1]/n2 -->
-          <property>sim/multiplay/generic/float[6]</property>
-          <value>27</value>
-        </greater-than>
-        <less-than>
-          <!-- /position/altitude-ft -->
-          <property>sim/multiplay/generic/float[2]</property>
-          <value>13000</value>
-        </less-than>
-      </and>
-    </condition>
     
-    <attach>world</attach>
-<align>billboard</align>
-    <placer>
-      <type>point</type>
-    </placer>
-
-    <shooter>
-      <theta-min-deg>89</theta-min-deg>
-      <theta-max-deg>91</theta-max-deg>
-      <phi-min-deg>-1</phi-min-deg>
-      <phi-max-deg>1</phi-max-deg>
-      <speed-mps>
-			  <expression>
-			  <product>
-				<property>sim/multiplay/generic/float[6]</property>
-				<property>sim/multiplay/generic/float[14]</property>
-				<value>1.2</value>
-			  </product>
-			  </expression>
-				<spread>18</spread>
-			</speed-mps>
-      <rotation-speed>
-        <x-min-deg-sec>0</x-min-deg-sec>
-        <y-min-deg-sec>0</y-min-deg-sec>
-        <z-min-deg-sec>0</z-min-deg-sec>
-        <x-max-deg-sec>0</x-max-deg-sec>
-        <y-max-deg-sec>0</y-max-deg-sec>
-        <z-max-deg-sec>0</z-max-deg-sec>
-      </rotation-speed>
-    </shooter>
-
-    <counter>
-      <particles-per-sec>
-				<value>50</value>
-				<spread>3</spread>
-			</particles-per-sec>
-    </counter>
-
-    <particle>
-			<start>
-				<color>
-					<red><value>0.35</value></red>
-					<green><value>0.35</value></green>
-					<blue><value>0.35</value></blue>
-					<alpha><value>0.1</value></alpha>
-				</color>
-				<size>
-					<value>0.25</value>
-				</size>
-			</start>
-			<end>
-				<color>
-					<red><value>0.45</value></red>
-					<green><value>0.45</value></green>
-					<blue><value>0.45</value></blue>
-					<alpha><value>0.0</value></alpha>
-				</color>
-				<size>
-					<value>7</value>
-				</size>
-			</end>
-			<life-sec>
-				<value>6</value>
-			</life-sec>
-			<mass-kg>0.52</mass-kg>
-			<radius-m>0.01</radius-m>
-		</particle>
-
-    <program>
-      <fluid>   air  </fluid>
-      <gravity> true </gravity>
-      <wind>    true </wind>
-    </program>
-
-  </particlesystem>
-
+    <particlesystem>
+        <name>smoke</name>
+        <texture>smoke.png</texture>
+        
+        <emissive>false</emissive>
+        <lighting>false</lighting>
+        
+        <condition>
+            <and>
+                <greater-than>
+                    <!-- /engines/engine[1]/n2 -->
+                    <property>sim/multiplay/generic/float[8]</property>
+                    <value>27</value>
+                </greater-than>
+                <less-than>
+                    <!-- /position/altitude-ft -->
+                    <property>sim/multiplay/generic/float[2]</property>
+                    <value>13000</value>
+                </less-than>
+            </and>
+        </condition>
+        
+        <attach>world</attach>
+        <align>billboard</align>
+        <placer>
+            <type>point</type>
+        </placer>
+        
+        <shooter>
+            <theta-min-deg>89</theta-min-deg>
+            <theta-max-deg>91</theta-max-deg>
+            <phi-min-deg>-1</phi-min-deg>
+            <phi-max-deg>1</phi-max-deg>
+            <speed-mps>
+                <expression>
+                    <product>
+                        <property>sim/multiplay/generic/float[6]</property>
+                        <property>sim/multiplay/generic/float[14]</property>
+                        <value>1.2</value>
+                    </product>
+                </expression>
+                <spread>18</spread>
+            </speed-mps>
+            <rotation-speed>
+                <x-min-deg-sec>0</x-min-deg-sec>
+                <y-min-deg-sec>0</y-min-deg-sec>
+                <z-min-deg-sec>0</z-min-deg-sec>
+                <x-max-deg-sec>0</x-max-deg-sec>
+                <y-max-deg-sec>0</y-max-deg-sec>
+                <z-max-deg-sec>0</z-max-deg-sec>
+            </rotation-speed>
+        </shooter>
+        
+        <counter>
+            <particles-per-sec>
+                <value>50</value>
+                <spread>3</spread>
+            </particles-per-sec>
+        </counter>
+        
+        <particle>
+            <start>
+                <color>
+                    <red><value>0.35</value></red>
+                    <green><value>0.35</value></green>
+                    <blue><value>0.35</value></blue>
+                    <alpha><value>0.1</value></alpha>
+                </color>
+                <size>
+                    <value>0.25</value>
+                </size>
+            </start>
+            <end>
+                <color>
+                    <red><value>0.45</value></red>
+                    <green><value>0.45</value></green>
+                    <blue><value>0.45</value></blue>
+                    <alpha><value>0.0</value></alpha>
+                </color>
+                <size>
+                    <value>7</value>
+                </size>
+            </end>
+            <life-sec>
+                <value>6</value>
+            </life-sec>
+            <mass-kg>0.52</mass-kg>
+            <radius-m>0.01</radius-m>
+        </particle>
+        
+        <program>
+            <fluid>   air  </fluid>
+            <gravity> true </gravity>
+            <wind>    true </wind>
+        </program>
+        
+    </particlesystem>
+    
 </PropertyList>
