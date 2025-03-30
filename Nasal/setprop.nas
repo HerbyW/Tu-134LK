@@ -590,3 +590,58 @@ setlistener("/controls/engines/engine[1]/ignition", func
    if (getprop("/controls/engines/engine[1]/ignition") == 0)
    setprop("/controls/engines/engine[1]/starting", 0);
 });
+
+####################################-new-03/13/2025-HerbyW-####################################################################
+# Zero-G-Parabelflugtechnik                                                             horizontal flight = pitch -2,383
+###############################################################################################################################
+#
+# See text file for detailed information. The time is adjusted to work pretty well, sometimes :)
+# If anyone wants to take it to the next level just programm the pitch in more detail. 20 s to 50 deg 22 s to -42 deg 20 s to 0 deg original airbus
+#
+# 0, 5, 52, 20, -40, 25, -15, 20, -6, 10
+#
+# Airbus Parameter: 20 s to 50 deg 22 s to -42 deg 20 s to 0 deg max 1,8g
+# interpolate("/autopilot/settings/target-pitch-deg", 0, 5, 52, 22, -40, 24, -15, 22, -6, 7); Counter 5 - 27 - 51 - 73 - 80
+#
+# TU-134LK Parameter: 20? s to 45 deg 25-28s to -42 deg 20? s to 0 deg max 2,0g
+#6000m - 45° - 9000m 
+# 0, 3, 47, 19, -40, 24, -15, 22, -3, 12
+
+
+setprop("/controls/ZGP", 0);
+setprop("/controls/ZGPcount", 0);
+
+setlistener("/controls/ZGP", func
+{ 
+  if (getprop("/controls/ZGP") == 1)
+    {
+    setprop("/sim/messages/copilot", "ZGP activated. Steps Counter 5 - 24 - 46 - 64 - 76");
+    setprop("/autopilot/locks/altitude", "pitch-hold");
+    setprop("/controls/ZGP", 0);
+    interpolate("/controls/ZGPcount", 79, 79, 0, 1);
+    interpolate("/autopilot/settings/target-pitch-deg", 0, 5, 47, 19, -40, 22, -15, 18, 0, 11);
+      }
+});
+
+setlistener("/controls/ZGPcount", func
+{ 
+  if (getprop("/controls/ZGPcount") > 78)
+    {
+      setprop("/autopilot/settings/target-altitude-ft", 19000);
+      setprop("/autopilot/locks/altitude", "altitude-hold");
+      setprop("/sim/messages/copilot", "ZGP end, we are back to ALT mode");
+    }    
+});
+
+
+# create timer with 1 second interval
+var ZGPtimer = maketimer(1, func
+
+ { 
+   if (getprop("/controls/ZGPcount") > 0) 
+   setprop("/sim/messages/copilot", getprop("/controls/ZGPcount"));
+ });
+
+# start the timer (with 1 second inverval)
+ZGPtimer.start();
+

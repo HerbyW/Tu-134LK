@@ -63,7 +63,7 @@
 
     <description>Tu-134LK - Cosmonaut training version (YASim)</description>
     <author>Herbert Wagner, Emmanuel BARANGER (3D/FDM) Artem Kovalchuk and Gary Buckaroo (FDM)</author>
-    <aircraft-version>2.1</aircraft-version>
+    <aircraft-version>3.1</aircraft-version>
     <status>production</status>
 
     <fuel-fraction>0.5</fuel-fraction>
@@ -82,9 +82,21 @@
         <noze type="int">1</noze>
       </livery>
       <tu134>
-	<version type="string">2.1</version>
+        <version type="string">3.1</version>
       </tu134>
       <hide-yoke type="bool">true</hide-yoke>
+      <door n="0">
+        <position-x-m type="float">-13.12</position-x-m>
+        <position-y-m type="float">-1.39</position-y-m>
+        <position-z-m type="float">-1.19</position-z-m>
+        <jetway-hood-deg type="float">5</jetway-hood-deg>
+      </door>
+      <door n="1">
+        <position-x-m type="float">-13.12</position-x-m>
+        <position-y-m type="float">1.39</position-y-m>
+        <position-z-m type="float">-1.19</position-z-m>
+        <jetway-hood-deg type="float">5</jetway-hood-deg>
+      </door>
     </model>
     
      <sound>

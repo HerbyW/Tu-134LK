@@ -70,7 +70,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>-3.0</Kp>        <!-- proportional gain -3 -->
+      <Kp>-1.0</Kp>        <!-- proportional gain -3 -->
       <beta>1.0</beta>     <!-- input value weighing factor -->
       <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>   <!-- input value weighing factor for -->
@@ -100,7 +100,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/controls/flight/aileron-trim-filter</prop>
     </output>
     <config>
-      <Kp>0.025</Kp>        <!-- proportional gain -->
+      <Kp>0.015</Kp>        <!-- proportional gain -->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
@@ -132,7 +132,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     </input>
     <output>/controls/flight/aileron-trim</output>
     <type>noise-spike</type>
-    <max-rate-of-change>0.50</max-rate-of-change>
+    <max-rate-of-change>1</max-rate-of-change>
   </filter>
 
   <!-- True Heading hold.  2 stage cascade controller. -->
@@ -186,7 +186,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/controls/flight/aileron-trim</prop>
     </output>
     <config>
-      <Kp>0.1</Kp>        <!-- proportional gain -->
+      <Kp>0.015</Kp>        <!-- proportional gain -->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
@@ -249,7 +249,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/controls/flight/aileron-trim</prop>
     </output>
     <config>
-      <Kp>0.1</Kp>        <!-- proportional gain -->
+      <Kp>0.015</Kp>        <!-- proportional gain -->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
@@ -320,20 +320,37 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/autopilot/settings/target-pitch-deg</prop>
     </reference>
     <output>
-      <prop>/controls/flight/elevator-trim</prop>
+      <prop>/controls/flight/elevator-trim-filter</prop>
     </output>
     <config>
-      <Kp>-0.05</Kp>      <!-- proportional gain -->
+      <Kp>-0.025</Kp>      <!-- proportional gain -->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>7.0</Ti>        <!-- integrator time -->
+      <Ti>15.0</Ti>        <!-- integrator time -->
       <Td>0.00001</Td>    <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
       <u_max>1.0</u_max>  <!-- maximum output clamp -->
     </config>
    </pid-controller>
+   
+   <filter>
+    <name>Pitch hold FILTER</name>
+    <debug>false</debug>
+    <feedback-if-disabled>false</feedback-if-disabled>
+    <initialize-to>output</initialize-to>
+    <enable>
+      <prop>/autopilot/locks/altitude</prop>
+      <value>pitch-hold</value>
+    </enable>
+    <input>
+      <property>/controls/flight/elevator-trim-filter</property>
+    </input>
+    <output>/controls/flight/elevator-trim</output>
+    <type>noise-spike</type>
+    <max-rate-of-change>0.20</max-rate-of-change>
+  </filter>
 
  <!-- Simple angle of attack hold --> 
  <pid-controller>
@@ -365,7 +382,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     </config>
   </pid-controller>
 
-  <!-- Altitude hold.  2 stage cascade controller. -->
+  <!-- Altitude hold.  3 stage cascade controller. -->
 
   <!-- Stage #1 sets target rate of climb based on diff between current alt -->
   <!-- and target altitude. -->
@@ -408,10 +425,10 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <prop>/autopilot/internal/target-climb-rate-fps</prop>
     </reference>
     <output>
-      <prop>/controls/flight/elevator-trim</prop>
+      <prop>/controls/flight/elevator-trim-filter</prop>
     </output>
     <config>
-      <Kp>-0.0030</Kp>      <!-- proportional gain -0.003-->
+      <Kp>-0.00160</Kp>      <!-- proportional gain -0.003-->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
@@ -422,6 +439,23 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <u_max>1.0</u_max>  <!-- maximum output clamp -->
     </config>
   </pid-controller>
+  
+  <filter>
+    <name>Altitude Hold FILTER</name>
+    <debug>false</debug>
+    <feedback-if-disabled>false</feedback-if-disabled>
+    <initialize-to>output</initialize-to>
+    <enable>
+      <prop>/autopilot/locks/altitude</prop>
+      <value>altitude-hold</value>
+    </enable>
+    <input>
+      <property>/controls/flight/elevator-trim-filter</property>
+    </input>
+    <output>/controls/flight/elevator-trim</output>
+    <type>noise-spike</type>
+    <max-rate-of-change>0.2</max-rate-of-change>   <!-- 1 -->
+  </filter>
 
   <!-- AGL hold.  2 stage cascade controller. -->
 
@@ -584,10 +618,10 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <scale>0.01667</scale>
     </reference>
     <output>
-      <prop>/controls/flight/elevator-trim</prop>
+      <prop>/controls/flight/elevator-trim-filter</prop>
     </output>
     <config>
-      <Kp>-0.005</Kp>      <!-- proportional gain -->
+      <Kp>-0.0015</Kp>      <!-- proportional gain -->
       <beta>1.0</beta>    <!-- input value weighing factor -->
       <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
       <gamma>0.0</gamma>  <!-- input value weighing factor for -->
@@ -598,6 +632,23 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
       <u_max>1.0</u_max>  <!-- maximum output clamp -->
     </config>
   </pid-controller>
+  
+  <filter>
+    <name>Vertical Speed Hold FILTER</name>
+    <debug>false</debug>
+    <feedback-if-disabled>false</feedback-if-disabled>
+    <initialize-to>output</initialize-to>
+    <enable>
+      <prop>/autopilot/locks/altitude</prop>
+      <value>vertical-speed-hold</value>
+    </enable>
+    <input>
+      <property>/controls/flight/elevator-trim-filter</property>
+    </input>
+    <output>/controls/flight/elevator-trim</output>
+    <type>noise-spike</type>
+    <max-rate-of-change>0.025</max-rate-of-change>
+  </filter>
 
 
  <!-- =============================================================== -->

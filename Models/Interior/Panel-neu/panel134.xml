@@ -1676,10 +1676,10 @@ Lights</text>
   <text>
     <name>doors</name>
     <type type="string">literal</type>
-    <text type="string">L+R
+    <text type="string">Left
         
         
-      Doors</text>
+      Door</text>
     <draw-text type="bool">true</draw-text>
     <font>Helvetica.txf</font>
     <character-size type="double">0.008</character-size>
@@ -2143,6 +2143,26 @@ SKAWK</text>
       <y-m>  -0.293 </y-m>
       <z-m>  0.674 </z-m>
       <pitch-deg>68</pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- ZGP Seqzenzeinleitung -->
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/warning/ZGP.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  0.045 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-134LK/Models/Interior/Panel-neu/Instruments/redlamp/ZGP-green.xml</path>
+    <offsets>
+      <x-m> -0.02 </x-m>
+      <y-m>  0.005 </y-m>
+      <z-m>  0.042 </z-m>
     </offsets>
   </model>
 

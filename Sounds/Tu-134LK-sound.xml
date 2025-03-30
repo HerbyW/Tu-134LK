@@ -73,7 +73,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
 	 </greater-than>
 	 <greater-than>
           <property>sim/multiplay/generic/float[6]</property>    
-          <value>27</value>
+          <value>25</value>
          </greater-than>
 	 </and>
         </condition>  
@@ -106,7 +106,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
 	 </greater-than>
 	 <greater-than>
           <property>sim/multiplay/generic/float[8]</property>    
-          <value>27</value>
+          <value>25</value>
          </greater-than>
 	 </and>
         </condition>  

@@ -4,7 +4,7 @@ for Flightgear Flightsimulator by Herbert Wagner 2016-2019 (schamangerbert, Herb
 
 Based on works from: Emmanuel BARANGER (3D/FDM), Artem Kovalchuk and Gary Buckaroo (FDM)
 
-aircraft-version 2.1
+aircraft-version 3.1
 
 LICENSE: This aircraft is released under the GNU GPL v2 License, see COPYING file.
 

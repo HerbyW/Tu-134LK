@@ -32,25 +32,10 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
   <animation>
     <type>rotate</type>
     <object-name>handle</object-name>
-	  <property>sim/multiplay/generic/float[9]</property>
+	  <property>sim/multiplay/generic/float[0]</property>
     <interpolation>
-      <entry><ind>	1.0</ind>	<dep>	-30.0</dep></entry>
-      <entry><ind>	0.0</ind>	<dep>	 30.0</dep></entry>
-    </interpolation>
-    <axis>
-      <x>0.0</x>
-      <y>1.0</y>
-      <z>0.0</z>
-    </axis>
-  </animation>
-  
-  <animation>
-    <type>rotate</type>
-    <object-name>handle</object-name>
-	  <property>sim/multiplay/generic/float[11]</property>
-    <interpolation>
-      <entry><ind>	1.0</ind>	<dep>	-30.0</dep></entry>
-      <entry><ind>	0.0</ind>	<dep>	 30.0</dep></entry>
+      <entry><ind>	1.0</ind>	<dep>	-60.0</dep></entry>
+      <entry><ind>	0.0</ind>	<dep>	 60.0</dep></entry>
     </interpolation>
     <axis>
       <x>0.0</x>
@@ -69,11 +54,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     <repeatable>false</repeatable>
     <binding>
         <command>nasal</command>
-        <script>doors.crewL.toggle();</script>
-      </binding>
-      <binding>
-        <command>nasal</command>
-        <script>doors.crewR.toggle();</script>
+        <script>doors.crew.toggle();</script>
       </binding>
   </action>
 </animation>
@@ -86,11 +67,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     <repeatable>false</repeatable>
     <binding>
         <command>nasal</command>
-        <script>doors.crewL.toggle();</script>
-      </binding>
-      <binding>
-        <command>nasal</command>
-        <script>doors.crewR.toggle();</script>
+        <script>doors.crew.toggle();</script>
       </binding>
   </action>
 </animation>

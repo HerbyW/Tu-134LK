@@ -1,0 +1,103 @@
+
+Zero G-Parabelflugtechnik
+
+0 Horizontalflug   6000 m 820 km/h 1g
+
+1 Eintrittsphase 20 sec  6000-7600 m  820-685 km/h Ende:50° Steigung 1,8g
+
+2 Parabel  Ballistische Phase 22 sec Schub zurücknehmen Scheitelpunkt: 8500 m 380 km/h 0° Steigung Ende: 7600 m 42° Neigung
+
+3 Austrittsphase bei 42° 20 sec 1,8g zuletzt wieder voller Schub Ende: Horizontalflug oder Wiederholung der Parabel
+
+
+3 Piloten um +- 0,02g Abweichung nicht zu überschreiten
+
+ - Pitch
+ - Roll
+ - Throttle
+ 
+https://www.airzerog.com/de/zero-g-parabelflugtechnik/
+
+ 
+ 
+0 6000m, 820 km/h, 0°, 1g
+
+1 6000m-7600m, 820-685 km/h, 0-50°, 1 - 1.8 - 0g
+
+2 7600-8500-7600m, 685-380-685 km/h, 50 - 0 - -42°, 0g
+   
+3 7600-6000m. 685-820 km/h, -42 - 0°, 0 - 1.8 - 1g 
+
+Nasal:
+
+Timersteuerung der einzelnen Flugphasen: ZGP= 0 1 2 3
+1=20s 2=22sec 3=20s 0=0s für kontinuierlichen Parabelflug
+
+Autopilot: !metrisch
+
+Phase 0: ALT 6000 IAS 820
+
+Phase 1: ALT 6000>7600 IAS 820>685
+
+Phase 2: ALT 7600>8500>7600 IAS 820
+
+Phase 3: ALT 7600>6000 IAS 685>820
+
+Instrument: 3 Buttons: 0 Phase rot-grün / Phase 1-3 Automat gelb / Aus rot
+Phase 0 Button ist rot wird grün wenn die Bedingungen erfüllt sind: 6000/820/0°
+erst dann kann der zweite Button aktiviert werden
+Aus ist zurück in stabilen Flugmodus 0 ohne dessen Aktivierung
+
+
+####################
+
+https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%AE._%D0%90._%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0
+
+Flugzeuglabore
+
+Das Laborflugzeug (fliegendes Labor) dient zur Lösung folgender Aufgaben:
+
+ professionelle Ausbildung von Astronauten;
+ Durchführung von Tests der Weltraumtechnologie;
+ medizinische Experimente;
+ medizinische und biologische Forschung zu den lebenswichtigen Funktionen von Organismen unter Bedingungen der Schwerelosigkeit und geringer Schwerkraft.
+
+Als Flugzeugmodifikationen kamen zum Einsatz: Tu-104AK, Tu-134LK, Tu-154M-LK-1 und Il-76MDK „Cosmos“[33].
+Flugbahn des Manövers zum Erreichen der Schwerelosigkeit
+
+Die Keplerkurve, der Hügel, der Parabelflug sind Synonyme für einen speziellen Flugmodus eines Laborflugzeugs, bei dem der Körper streng auf Schwerelosigkeit getestet wird. Eine speziell ausgebildete Il und ihre Besatzung, die zehn Hügel hintereinander besteigen, ist einer der wichtigsten Tests für zukünftige Kosmonauten[34].
+
+Das Laborflugzeug Il-76MDK wurde auf Basis des Serientransportflugzeugs Il-76MD entwickelt und dient der Modellierung sowohl kurzfristiger Schwerelosigkeit als auch reduzierter Schwerkraft, einschließlich der Schwerkraft des Mondes und des Mars. Hauptmerkmale[33]:
+
+ Dauer der Schwerelosigkeit 25–28 Sekunden;
+ bis zu 20 verschiedene Flugmodi;
+ Überlastungen bis zu 2g.
+
+Das Training zukünftiger Kosmonauten unter Schwerelosigkeitsbedingungen im Laborflugzeug Il-76MDK zielt auf den Erwerb folgender Fähigkeiten ab[33]:
+
+ Körperorientierung und Bewegung;
+ An- und Ausziehen von Spezialausrüstung und Raumanzügen;
+ berufliche Tätigkeit;
+ Durchführen von Routineoperationen mit und ohne Spezialausrüstung;
+ Bewertung der Benutzerfreundlichkeit von Systemen, Geräten und Werkzeugen;
+ Einschätzung der Zuverlässigkeit von Geräten und Werkzeugen;
+ Interaktionen während Außenbordaktivitäten;
+ Anpassung des Körpers der Astronauten an die Auswirkungen bestimmter physiologischer Faktoren.
+ 
+ Bild CC BY-SA 4.0: MikeRun. Собственная работа, redraw vector version of Flight trajectory
+ for a typical zero gravity flight maneuver (KIAS means "Knots-Indicated Air Speed").
+
+ 
+#########################################################################
+
+http://www.gctc.su/main.php?id=132
+
+#########################################################################
+
+https://sktur.ru/space/zerogravity/
+
+Die Technik des Fliegens in der Schwerelosigkeit und wie die Schwerelosigkeit im Flugzeug Il-76 erzeugt wird.
+
+Eine häufige Frage unserer Touristen lautet: Wie wird diese kosmische Schwerelosigkeit im Flugzeug Il-76 erzeugt? Die Technik des Fluges in der Schwerelosigkeit basiert auf der „Kepler-Parabel“. Vereinfacht ausgedrückt fliegt die Il-76 in die Zone und erreicht eine Höhe von 6.000 Metern über dem Boden, dann steigt sie in einem Winkel von 45 Grad steil auf 9.000 Meter an, steigt dann über einen Hügel, wechselt in den Modus der kurzfristigen Schwerelosigkeit und sinkt wieder auf 6.000 Meter. Während der Rutschpartie spüren Sie an Bord für etwa 25–28 Sekunden die Schwerelosigkeit. Nach dem Sinkflug auf 6000 Meter muss die Raumfähre Il-76 etwa 5 Minuten fliegen, dann wird der Steigflug wiederholt, d.h. Die Schwerelosigkeitsmodi werden in Abständen von 7–8 Minuten geübt. Jeder Schwerelosigkeitsmodus ist auf eine Überlastung von 2 g festgelegt. Die Auszubildenden an Bord spüren die Überlastung vor dem Einsetzen der Schwerelosigkeit und nach dem Verlassen des Modus.
+
+Bei der Durchführung von Schwerelosigkeitsflügen für Touristen können während des gesamten Fluges 10 bis 15 Schwerelosigkeitsmodi durchgeführt werden. Und bei Trainingsflügen für Kosmonauten werden 15 bis 20 Modi erarbeitet, alles hängt von den den Kosmonauten gestellten Aufgaben ab. Das Flugzeug Il-76 MDK kann bis zu 30 Schwerelosigkeitsmodi ausführen.

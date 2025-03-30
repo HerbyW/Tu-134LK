@@ -243,11 +243,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
 		  <property>autopilot/locks/altitude</property>
 		  <value type="string">altitude-hold</value>
 		</binding>
-		<binding>
-		  <command>property-assign</command>
-		  <property>autopilot/settings/target-altitude-ft</property>
-		  <property>instrumentation/altimeter/indicated-altitude-ft</property>
-		</binding>   
+		
         </action>
     </animation>
 

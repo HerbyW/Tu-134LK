@@ -192,7 +192,7 @@ var Startup = func{
 	interpolate("/controls/engines/engine[1]/throttle", 0, 17, 0.13, 17);
 	
 	setprop("/sim/messages/copilot", "Engines 1-2 starting up, wait 32 seconds till idle position");
-	setprop("/sim/messages/copilot", "Press < to control all engine lamps going to green");
+	setprop("/sim/messages/copilot", "Press y to control all engine lamps going to green");
 }
 
 var Shutdown = func{

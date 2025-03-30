@@ -46,7 +46,7 @@
       <path>Huds/Sets/controls.xml</path>
       <x-offset>-100</x-offset>
       <y-offset>70</y-offset>
-    </import> 
+  </import> 
     
   </sim>
 

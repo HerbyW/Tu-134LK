@@ -44,8 +44,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
     <object-name>_d_2</object-name>
     <condition>
       <and>
-	<property>sim/multiplay/generic/float[9]</property>
-	<property>sim/multiplay/generic/float[11]</property>
+	<property>sim/multiplay/generic/float[0]</property>
       </and>
     </condition>
   </animation>

@@ -43,7 +43,7 @@ see Read-Me.txt for all copyrights in the base folder of this aircraft
    <condition>
      <greater-than>
 	<property>yasim/gross-weight-lbs</property>
-	<value>462970</value>
+	<value>94798</value>
      </greater-than>
     </condition>  
   <emission>

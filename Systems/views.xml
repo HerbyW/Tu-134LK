@@ -10,7 +10,7 @@ Modified by lastmin-II, 07.2015:
 
 <PropertyList>
 
-  <chase-distance-m type="double" archive="y"> -40 </chase-distance-m>
+  <chase-distance-m type="double" archive="y"> -60 </chase-distance-m>
 
   <view n="100">
     <name>Passenger View</name>
@@ -41,7 +41,7 @@ Modified by lastmin-II, 07.2015:
       <y-offset-m archive="y">  6.252 </y-offset-m> <!--Up-->
       <z-offset-m archive="y"> 15.832 </z-offset-m> <!--Back-->
       <pitch-offset-deg> -5 </pitch-offset-deg>
-      <default-field-of-view-deg type="double"> 30 </default-field-of-view-deg>
+      <default-field-of-view-deg type="double"> 83 </default-field-of-view-deg>
     </config>
   </view>
 
@@ -56,7 +56,7 @@ Modified by lastmin-II, 07.2015:
       <y-offset-m archive="y">  -0.50500 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -15.17172 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> -10 </pitch-offset-deg>
-      <default-field-of-view-deg> 63 </default-field-of-view-deg>
+      <default-field-of-view-deg> 82.1 </default-field-of-view-deg>
       <dynamic-view type="bool">true</dynamic-view>
     </config>
   </view>
@@ -73,7 +73,7 @@ Modified by lastmin-II, 07.2015:
       <y-offset-m archive="y">  -0.67204 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -15.07172 </z-offset-m> <!-- Back  -->
       <pitch-offset-deg> -5 </pitch-offset-deg>
-      <default-field-of-view-deg type="double"> 45 </default-field-of-view-deg>
+      <default-field-of-view-deg type="double"> 76.4 </default-field-of-view-deg>
     </config>
   </view>
 
@@ -86,11 +86,11 @@ Modified by lastmin-II, 07.2015:
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
       <x-offset-m archive="y">  0.0 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  -1.6 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -17.0 </z-offset-m> <!-- Back  -->
-      <pitch-offset-deg> -12 </pitch-offset-deg>
+      <y-offset-m archive="y">  -1.64 </y-offset-m> <!-- Up    -->
+      <z-offset-m archive="y"> -17.15 </z-offset-m> <!-- Back  -->
+      <pitch-offset-deg> -13 </pitch-offset-deg>
       <heading-offset-deg> 0 </heading-offset-deg>
-      <default-field-of-view-deg type="double"> 75 </default-field-of-view-deg>
+      <default-field-of-view-deg type="double"> 85.6 </default-field-of-view-deg>
     </config>
   </view>
   
@@ -118,14 +118,15 @@ Modified by lastmin-II, 07.2015:
       <x-offset-m archive="y">  -0.54000 </x-offset-m> <!-- Right -->
       <y-offset-m archive="y">  -0.4500 </y-offset-m> <!-- Up    -->
       <z-offset-m archive="y"> -15.17172 </z-offset-m> <!-- Back  -->
-      <pitch-offset-deg> -12 </pitch-offset-deg>
-      <default-field-of-view-deg> 88 </default-field-of-view-deg>
+      <pitch-offset-deg> -9.5 </pitch-offset-deg>
+      <default-field-of-view-deg> 91 </default-field-of-view-deg>
     </config>
   </view>
 
   <view n="1">
     <config>
-      <target-z-offset-m archive="y" type="double"> 0 </target-z-offset-m>
+      <target-z-offset-m archive="y" type="double"> 10 </target-z-offset-m>
+      <default-field-of-view-deg> 74 </default-field-of-view-deg>
     </config>
   </view>
 
@@ -154,6 +155,11 @@ Modified by lastmin-II, 07.2015:
   </view>
 
   <view n="6">
+    <config>
+      <target-z-offset-m archive="y" type="double"> 0 </target-z-offset-m>
+    </config>
+  </view>
+  <view n="7">
     <config>
       <target-z-offset-m archive="y" type="double"> 0 </target-z-offset-m>
     </config>

@@ -149,27 +149,23 @@ Approach Elevator: -0.297203
 
 
   <!-- Approach configuration -->
-  <approach speed="136" aoa="4" fuel="0.2">
-    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.2"/>
-    <control-setting axis="/controls/engines/engine[1]/throttle-lever" value="0.2"/>
+  <approach speed="130" aoa="4" fuel="0.2">
+    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.6"/>
+    <control-setting axis="/controls/engines/engine[1]/throttle-lever" value="0.6"/>
     <control-setting axis="/controls/flight/flaps" value="1"/>
     <control-setting axis="/controls/flight/slats" value="1"/>
     <control-setting axis="/controls/flight/spoilers" value="0"/>
     <control-setting axis="/controls/gear/gear-down" value="1"/>
-    <solve-weight idx="0" weight="1"/>
-    <solve-weight idx="1" weight="1"/>
   </approach>
 
   <!-- Cruise configuration -->
-  <cruise speed="458" alt="35000" fuel="0.6">
-    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.85"/>
-    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.85"/>
+  <cruise speed="432" alt="32800" fuel="0.6">
+    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.95"/>
+    <control-setting axis="/controls/engines/engine[0]/throttle-lever" value="0.95"/>
     <control-setting axis="/controls/flight/flaps" value="0"/>
     <control-setting axis="/controls/flight/slats" value="0.0"/>
     <control-setting axis="/controls/flight/spoilers" value="0"/>
     <control-setting axis="/controls/gear/gear-down" value="0"/>
-    <solve-weight idx="0" weight="1"/>
-    <solve-weight idx="1" weight="1"/>
   </cruise>
 
   <cockpit x="15.330" y="0.597" z="-0.293"/>
@@ -178,17 +174,17 @@ Approach Elevator: -0.297203
   
        I reduced the width of the engine nacelle bodies. Air passes through these things and they have very little drag.
   -->
-  <fuselage ax=" 18.503" ay=" 0.000" az="-1.808" bx=" 13.635" by=" 0.000" bz="-1.217" width="3.000" taper="0.2" midpoint="1.0"/>
+  <fuselage ax=" 18.503" ay=" 0.000" az="-1.808" bx=" 13.635" by=" 0.000" bz="-1.217" width="3.03" taper="0.2" midpoint="1.0"/>
   <fuselage ax=" 13.635" ay=" 0.000" az="-1.217" bx=" -5.186" by=" 0.000" bz="-1.214" width="3.000" taper="1.0" midpoint="1.0"/>
   <fuselage ax=" -5.186" ay=" 0.000" az="-1.214" bx="-14.939" by=" 0.000" bz="-0.236" width="3.000" taper="0.2" midpoint="0.0"/>
 
   <!-- Engines -->
-  <fuselage ax=" -5.335" ay=" 2.368" az="-0.772" bx="-10.519" by=" 2.055" bz="-0.790" width="1.48" taper="0.7" midpoint="0.25"/>
-  <fuselage ax=" -5.335" ay="-2.368" az="-0.772" bx="-10.519" by="-2.055" bz="-0.790" width="1.48" taper="0.7" midpoint="0.25"/>
+  <fuselage ax=" -5.335" ay=" 2.368" az="-0.772" bx="-10.519" by=" 2.055" bz="-0.790" width="1.52" taper="0.7" midpoint="0.25"/>
+  <fuselage ax=" -5.335" ay="-2.368" az="-0.772" bx="-10.519" by="-2.055" bz="-0.790" width="1.52" taper="0.7" midpoint="0.25"/>
 
   <!-- Bossages -->
-  <fuselage ax="  1.535" ay=" 4.781" az="-2.552" bx=" -5.321" by=" 4.781" bz="-2.552" width="1.212" taper="0.2" midpoint="0.7"/>
-  <fuselage ax="  1.535" ay="-4.781" az="-2.552" bx=" -5.321" by="-4.781" bz="-2.552" width="1.212" taper="0.2" midpoint="0.7"/>
+  <fuselage ax="  1.535" ay=" 4.781" az="-2.552" bx=" -5.321" by=" 4.781" bz="-2.552" width="1.26" taper="0.2" midpoint="0.7"/>
+  <fuselage ax="  1.535" ay="-4.781" az="-2.552" bx=" -5.321" by="-4.781" bz="-2.552" width="1.26" taper="0.2" midpoint="0.7"/>
 
   <!-- Tail up -->
   <fuselage ax=" -9.62" ay=" 0.000" az=" 4.61" bx="-17.646" by=" 0.000" bz=" 4.483" width="0.705" taper="0.2" midpoint="0.5"/>
@@ -221,10 +217,10 @@ Approach Elevator: -0.297203
         twist="-2"
         camber="0.22">
       <stall aoa="13" width="4" peak="1.5"/>
-      <flap0 start="0.05" end="0.64" lift="1.5" drag="2.5"/>
-      <flap1 start="0.64" end="1" lift="1.3" drag="1.3"/>
-      <slat start="0.1" end="0.95" aoa="4" drag="1.5"/>
-      <spoiler start="0.35" end="0.64" lift="0.3" drag="6"/>
+      <flap0 start="0.05" end="0.64" lift="1.5" drag="2.0"/>
+      <flap1 start="0.64" end="1" lift="1.7" drag="1.3"/>
+      <slat start="0.1" end="0.95" aoa="4" drag="1.3"/>
+      <spoiler start="0.35" end="0.64" lift="0.0" drag="6"/>
       
       <control-input axis="/controls/flight/spoilers" control="SPOILER"/>
       <control-input axis="/controls/flight/flaps" control="FLAP0"/>
@@ -240,8 +236,8 @@ Approach Elevator: -0.297203
       <control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
       <control-output control="SLAT" prop="/surface-positions/slat-pos-norm"/>
       
-      <control-speed control="FLAP0" transition-time="40"/>
-      <control-speed control="FLAP1" transition-time="1.0"/>
+      <control-speed control="FLAP0" transition-time="20"/>
+      <control-speed control="FLAP1" transition-time="7.0"/>
       <control-speed control="SLAT" transition-time="10"/>
       <control-speed control="SPOILER" transition-time="1.0"/>
   </wing>
@@ -289,16 +285,19 @@ Approach Elevator: -0.297203
        power : 23150 lbf
        weight : 3417 lb (1550 kg)
   --> 
+  
+  <!-- n1 26<24 und n2 60<58 um den Leerlauf zu verlangsamen -->
+  
   <jet x="-7.877" y=" 2.231" z="-0.770"
        mass="3417"
-       thrust="23150"
-       n1-idle="26"
+       thrust="15000"
+       n1-idle="24"
        n1-max="99.2"
-       n2-idle="60"
+       n2-idle="58"
        n2-max="102.5"
        egt="840"
        tsfc="0.65"
-       reverse="0.25">
+       reverse="0.35">
        <actionpt x="-10.519" y=" 2.055" z="-0.790"/>
        
        <control-input axis="/controls/engines/engine[0]/throttle-lever" control="THROTTLE" src0="0" src1="1" dst0="0.05" dst1="1"/>
@@ -309,14 +308,14 @@ Approach Elevator: -0.297203
 
   <jet x="-7.877" y="-2.231" z="-0.770"
        mass="3417"
-       thrust="23150"
-       n1-idle="26"
+       thrust="15000"
+       n1-idle="24"
        n1-max="99.2"
-       n2-idle="60"
+       n2-idle="58"
        n2-max="102.5"
        egt="840"
        tsfc="0.65"
-       reverse="0.25">
+       reverse="0.35">
        <actionpt x="-10.519" y="-2.055" z="-0.790"/>
        
        <control-input axis="/controls/engines/engine[1]/throttle-lever" control="THROTTLE" src0="0" src1="1" dst0="0.05" dst1="1"/>
@@ -327,11 +326,11 @@ Approach Elevator: -0.297203
 
   <!-- 0 nose -->
   <gear x="14.426" y="0.0" z="-4.45"
-        compression="0.75" 
-        spring="1.1"
-        damp="0.9" 
+        compression="0.35" 
+        spring="1.3"
+        damp="1.35" 
         sfric="1.9" 
-        dfric="0.7">  
+        dfric="0.75">  
        <control-input axis="/controls/flight/rudder" control="STEER" src0="-1.0" dst0="-0.8052" src1="1.0" dst1="0.8052" square="true"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
@@ -346,11 +345,11 @@ Approach Elevator: -0.297203
 
   <!-- 1 Left -->
   <gear x="-0.3585" y="4.7760" z="-4.36"
-        compression="0.75" 
-        spring="1.5"
-        damp="0.9" 
+        compression="0.35" 
+        spring="1.3"
+        damp="1.1" 
         sfric="1.9" 
-        dfric="0.7">  
+        dfric="0.75">  
         <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -362,11 +361,11 @@ Approach Elevator: -0.297203
 
   <!-- 2 Right -->
   <gear x="-0.3585" y="-4.7760" z="-4.36"
-        compression="0.75"
-        spring="1.5"
-        damp="0.9" 
+        compression="0.35"
+        spring="1.3"
+        damp="1.1" 
         sfric="1.9" 
-        dfric="0.7">  
+        dfric="0.75">  
         <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -378,11 +377,11 @@ Approach Elevator: -0.297203
 
   <!-- 3 Left rear -->
   <gear x="-1.5681" y="4.7760" z="-4.36"
-        compression="0.75"
-        spring="1.5"
-        damp="0.9" 
+        compression="0.35"
+        spring="1.3"
+        damp="1.1" 
         sfric="1.9" 
-        dfric="0.7">
+        dfric="0.75">
         <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -395,11 +394,11 @@ Approach Elevator: -0.297203
 
   <!-- 4 Right rear -->
   <gear x="-1.5681" y="-4.7760" z="-4.36        "
-        compression="0.75"
-        spring="1.5"
-        damp="0.9" 
+        compression="0.35"
+        spring="1.3"
+        damp="1.1" 
         sfric="1.9" 
-        dfric="0.7">
+        dfric="0.75">
         <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>

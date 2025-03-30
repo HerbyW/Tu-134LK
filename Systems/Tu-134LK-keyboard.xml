@@ -10,6 +10,15 @@
       <script>doors.crew.toggle();</script>
     </binding>
   </key>
+  
+  <key n="111">
+    <name>o</name>
+    <desc>Toggle Joke</desc>
+    <binding>
+      <command>property-toggle</command>
+      <property>sim/model/hide-yoke</property>
+    </binding>
+  </key>
 
   
 
@@ -37,7 +46,21 @@
     <desc>Landing light</desc>
     <binding>
       <command>property-toggle</command>
-      <property>/controls/lighting/landing-lights</property>
+      <property>controls/switches/headlight-mode</property>
+      <value type="int">0</value>
+      <value type="int">1</value>
+    </binding>
+    <binding> 
+      <command>property-toggle</command>
+      <property>sim/multiplay/generic/int[9]</property>
+      <value type="int">1</value>
+      <value type="int">0</value>
+    </binding>
+    <binding> 
+      <command>property-toggle</command>
+      <property>sim/multiplay/generic/int[10]</property>
+      <value type="int">0</value>
+      <value type="int">1</value>
     </binding>
   </key>
   
@@ -48,7 +71,7 @@
       <command>property-cycle</command>
       <property>sim/current-view/view-number</property>  
       <value>0</value>
-      <value>7</value>
+      <value>1</value>
     </binding>
   </key>
   
